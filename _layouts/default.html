@@ -1,0 +1,103 @@
+{% include setup %}
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>{{page.title}}</title>
+
+    <meta name="description"
+          content="Personal Computer Applications at Auburn University"/>
+    <meta name="keywords"
+          content="Auburn University,
+                   COMP1000,COMP2000,COMP5000,COMP6000,COMP1003,
+                   ROBOCAMP,COMPCAMP"/>
+    <meta name="author" content="Auburn University"/>
+    <meta http-equiv="Content-type" content="text/html;charset=utf-8"/>
+
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/nivo-bar.css"/>
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/nivo-slider.css"/>
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/site.css"/>
+  </head>
+
+  <body>
+
+    <!-- This `wrapper' is for css sticky footer.  Please see
+         http://www.cssstickyfooter.com/ for details. -->
+
+    <div id="wrapper">
+
+      <!-- navbar -->
+
+      <div class="navbar navbar-static-top">
+        <div class="navbar-inner">
+          <form class="navbar-search pull-right">
+            <input type="text" class="search-query" placeholder="Search">
+          </form>
+
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="/" accesskey="p">PORTAL</a></li>
+              <li><a href="comp1000/" accesskey="c">COMP1000</a><li>
+              <li><a href="comp1003/" accesskey="m">COMP1003</a></li>
+              <li><a href="comptest/" accesskey="t">COMP1@@0 Test</a></li>
+              <li><a href="itminor/" accesskey="i">IT MINOR</a></li>
+              <li><a href="k12/" accesskey="o">K12 OUTSTREACH</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- header -->
+
+      <header>
+        <img src="{{ ASSET_PATH }}/img/portal.jpg"></img>
+      </header>
+
+      <div id="content-wrapper">
+        <div class="container-fluid row">
+
+          <div id="pagetab" class="span12 tabbable tabs-left">
+            {{content}}
+          </div>
+
+          <div class="slider-wrapper theme-bar">
+            <div id="slider" class="nivoSlider">
+              <img src="{{ ASSET_PATH }}/img/gallary/slide-1.jpg"/>
+              <img src="{{ ASSET_PATH }}/img/gallary/slide-2.jpg"/>
+              <img src="{{ ASSET_PATH }}/img/gallary/slide-3.jpg"/>
+              <img src="{{ ASSET_PATH }}/img/gallary/slide-4.jpg"/>
+              <img src="{{ ASSET_PATH }}/img/gallary/slide-5.jpg"/>
+              <img src="{{ ASSET_PATH }}/img/gallary/slide-6.jpg"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer id="footer">
+      <div class="container">
+        <p><strong>Copyright &copy; All Right Reserved</strong></p>
+        <ul class="footer-links">
+          <li><a href="www.auburn.edu">Auburn University</a></li>
+          <li class="muted">|</li>
+          <li><a href="www.eng.auburn.edu/comp">CSSE</a></li>
+          <li class="muted">|</li>
+          <li><a href="https://fp.auburn.edu/comp2000/Daniela/index.html">
+              Dr. Daniela Marghitu</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- script -->
+
+    <script src="{{ ASSET_PATH }}/js/jquery-1.9.1.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/jquery.nivo.slider.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/bootstrap.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/site.js"></script>
+  </body>
+<html>
