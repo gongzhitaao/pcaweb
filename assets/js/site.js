@@ -3,11 +3,11 @@
 
     var menuidx = {
         '/pcaweb/': 1,
-        '/comp1000/': 2,
-        '/comp1003/': 3,
-        '/comptest/': 4,
-        '/itminor/': 5,
-        '/k12/': 6
+        '/pcaweb/comp1000/': 2,
+        '/pcaweb/comp1003/': 3,
+        '/pcaweb/comptest/': 4,
+        '/pcaweb/itminor/': 5,
+        '/pcaweb/k12/': 6
     };
 
     $(document).ready(function() {
