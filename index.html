@@ -19,10 +19,10 @@
     <meta http-equiv="Content-type" content="text/html;charset=utf-8"/>
 
     <link rel="shortcut icon" href="/favicon.ico"/>
-    <link rel="stylesheet" href="http://gongzhitaao.github.com/pcaweb/assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="http://gongzhitaao.github.com/pcaweb/assets/css/nivo-bar.css"/>
-    <link rel="stylesheet" href="http://gongzhitaao.github.com/pcaweb/assets/css/nivo-slider.css"/>
-    <link rel="stylesheet" href="http://gongzhitaao.github.com/pcaweb/assets/css/site.css"/>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/assets/css/nivo-bar.css"/>
+    <link rel="stylesheet" href="/assets/css/nivo-slider.css"/>
+    <link rel="stylesheet" href="/assets/css/site.css"/>
   </head>
 
   <body>
@@ -41,13 +41,13 @@
           </form>
 
           <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="/" accesskey="p">PORTAL</a></li>
-              <li><a href="comp1000/" accesskey="c">COMP1000</a><li>
-              <li><a href="comp1003/" accesskey="m">COMP1003</a></li>
-              <li><a href="comptest/" accesskey="t">COMP1@@0 Test</a></li>
-              <li><a href="itminor/" accesskey="i">IT MINOR</a></li>
-              <li><a href="k12/" accesskey="o">K12 OUTSTREACH</a></li>
+            <ul class="nav" id="mainnav">
+              <li><a href="/" accesskey="p">PORTAL</a></li>
+              <li><a href="/comp1000/" accesskey="c">COMP1000</a><li>
+              <li><a href="/comp1003/" accesskey="m">COMP1003</a></li>
+              <li><a href="/comptest/" accesskey="t">COMP1@@0 Test</a></li>
+              <li><a href="/itminor/" accesskey="i">IT MINOR</a></li>
+              <li><a href="/k12/" accesskey="o">K12 OUTSTREACH</a></li>
             </ul>
           </div>
         </div>
@@ -56,26 +56,28 @@
       <!-- header -->
 
       <header>
-        <img src="http://gongzhitaao.github.com/pcaweb/assets/img/portal.jpg"></img>
+        <img src="/assets/img/portal.jpg"></img>
       </header>
 
       <div id="content-wrapper">
-        <div class="container-fluid row">
+        <div class="container-fluid">
 
-          <div id="pagetab" class="span12 tabbable tabs-left">
+          <div class="row-fluid">
+
             <!-- page nav -->
 
-<ul class="span2 nav nav-tabs">
+            <div id="pagetab" class="span9 tabbable tabs-left">
+              <ul class="span2 nav nav-tabs">
   <li><a href="#home" data-toggle="tab">Homepage</a></li>
   <li><a href="#options" data-toggle="tab">Accessibility</a></li>
   <li><a href="#research" data-toggle="tab">Research</a></li>
   <li><a href="#sitemap" data-toggle="tab">Sitemap</a></li>
 </ul>
+
 <div class="span9 tab-content">
-  <div class="tab-pane fade active in"
-       id="home">
+  <div class="tab-pane fade active in" id="home">
     
-    <h4>Welcome to Auburn University Personal Computer Application Portal</h4>
+    <h2>Welcome to Auburn University Personal Computer Application Portal</h2>
 
 <p>At Auburn University, we believe that inspiring more students to
 choose careers in IT and computing it's a compelling issue of
@@ -101,14 +103,13 @@ and creative as the people it serves.</p>
 </dl>
 
 </div>
-  <div class="tab-pane fade"
-       id="options">
+  <div class="tab-pane fade" id="options">
     
-    <h2>Accessibility</h2>
+    <h1>Accessibility</h1>
 
 <hr />
 
-<h3>Vision Problems?</h3>
+<h2>Vision Problems?</h2>
 
 <p>Most browsers today have built in visibility tools.  For Internet
 Explorer &amp; Firefox the following keys will make pages shrink or grow.</p>
@@ -123,7 +124,7 @@ Explorer &amp; Firefox the following keys will make pages shrink or grow.</p>
 </table>
 
 
-<h3>Content Control</h3>
+<h2>Content Control</h2>
 
 <p>This site allows for the disabling advertisements.  Disabling ads will
 remove the ads from the left hand side.  The choices below will set a
@@ -132,7 +133,7 @@ content.  The cookie only keeps track of what content to disable and
 personal information is not stored.  The site will still run with
 cookies disabled, but you will not be able to disable any content.</p>
 
-<h3>Available Access Keys</h3>
+<h2>Available Access Keys</h2>
 
 <p>To use access keys in FireFox please use <strong>SHIFT</strong> +
 <strong>ALT</strong> + <em>KEY</em></p>
@@ -150,27 +151,27 @@ IT</td></tr> <tr><td>O</td><td>Go to Outstreach Section</td><td>It's
 Section</td><td>It's <em>H</em> for Homepage</td></tr> </table>
 
 </div>
-  <div class="tab-pane fade"
-       id="research">This is research page</div>
-  <div class="tab-pane fade"
-       id="sitemap">This is sitemap page</div>
+  <div class="tab-pane fade" id="research">This is research page</div>
+  <div class="tab-pane fade" id="sitemap">This is sitemap page</div>
 </div>
 
-          </div>
-
-          <div class="slider-wrapper theme-bar">
-            <div id="slider" class="nivoSlider">
-              <img src="http://gongzhitaao.github.com/pcaweb/assets/img/gallary/slide-1.jpg"/>
-              <img src="http://gongzhitaao.github.com/pcaweb/assets/img/gallary/slide-2.jpg"/>
-              <img src="http://gongzhitaao.github.com/pcaweb/assets/img/gallary/slide-3.jpg"/>
-              <img src="http://gongzhitaao.github.com/pcaweb/assets/img/gallary/slide-4.jpg"/>
-              <img src="http://gongzhitaao.github.com/pcaweb/assets/img/gallary/slide-5.jpg"/>
-              <img src="http://gongzhitaao.github.com/pcaweb/assets/img/gallary/slide-6.jpg"/>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
+            <div class="span3 slider-wrapper theme-bar">
+              <div id="slider" class="nivoSlider">
+                <img src="/assets/img/gallary/slide-1.jpg"/>
+                <img src="/assets/img/gallary/slide-2.jpg"/>
+                <img src="/assets/img/gallary/slide-3.jpg"/>
+                <img src="/assets/img/gallary/slide-4.jpg"/>
+                <img src="/assets/img/gallary/slide-5.jpg"/>
+                <img src="/assets/img/gallary/slide-6.jpg"/>
+              </div>
+            </div>
+
+          </div> <!-- row-fluid -->
+        </div> <!-- container-fluid -->
+      </div> <!-- content-wrapper -->
+    </div> <!-- wrapper -->
 
     <!-- footer -->
 
@@ -190,9 +191,9 @@ Section</td><td>It's <em>H</em> for Homepage</td></tr> </table>
 
     <!-- script -->
 
-    <script src="http://gongzhitaao.github.com/pcaweb/assets/js/jquery-1.9.1.min.js"></script>
-    <script src="http://gongzhitaao.github.com/pcaweb/assets/js/jquery.nivo.slider.min.js"></script>
-    <script src="http://gongzhitaao.github.com/pcaweb/assets/js/bootstrap.min.js"></script>
-    <script src="http://gongzhitaao.github.com/pcaweb/assets/js/site.js"></script>
+    <script src="/assets/js/jquery-1.9.1.min.js"></script>
+    <script src="/assets/js/jquery.nivo.slider.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/site.js"></script>
   </body>
 <html>
