@@ -16,9 +16,6 @@
         var path = window.location.pathname;
         $('#mainnav li:nth-child(' + menuidx[path] + ')').addClass('active');
 
-
-        alert('helo');
-
         $('#pagetab a:first').tab('show');
         $('#slider').nivoSlider();
     });
