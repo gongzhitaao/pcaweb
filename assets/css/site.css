@@ -15,7 +15,7 @@ h4{font-size:1em}
 h5{font-size:.83em}
 h6{font-size:.75em}
 
-header{background-color:#DD550C}
+.header{background-color:#DD550C}
 
 /*
  * Custom tweaks
@@ -24,7 +24,7 @@ header{background-color:#DD550C}
 #wrapper{min-height:100%}
 #content-wrapper{overflow:auto;padding-bottom:80px}
 
-#footer{text-align:center;padding-top:15px;background-color:#03244D!important;
+#footer{text-align:center;padding-top:15px;background:#03244D!important;
         position:relative;margin-top:-80px;height:65px;clear:both}
 #footer p{margin-bottom:0;color:#DDD}
 .footer-links{margin:10px 0}
@@ -35,13 +35,13 @@ header{background-color:#DD550C}
  * Bootstrap tweaks
  */
 
-.navbar-inner{background-color:#03244D;background-image:none;
-              font-weight:bold}
-.navbar .nav>li:not(.active)>a{color:#DDD;text-shadow:black 0.1em 0.1em 0.2em}
-.navbar .nav>li .active>a{color:#222;text-shadow:white 0.1em 0.1em 0.2em}
-.navbar .nav>li>a:hover{color:white}
+.navbar-inner{background:#03244D none;font-weight:bold;filter:none;}
+.navbar .nav>li>a{color:#DDD!important;
+                  text-shadow:black 0.1em 0.1em 0.2em}
+.navbar .nav>li .active>a{color:#222!important;text-shadow:white 0.1em 0.1em 0.2em}
+.navbar .nav>li>a:hover{color:white!important}
 
 .dropdown-menu{left:50px}
 
-.icon-chevron-right{float:right;margin-top:2px;margin-right:-6px;opacity: .25}
-
+.icon-chevron-right{float:right;margin-top:2px;margin-right:-6px;
+                    opacity:.25!important;filter:alpha(opacity=25);}

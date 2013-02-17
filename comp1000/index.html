@@ -55,9 +55,14 @@
 
       <!-- header -->
 
-      <header>
-        <img src="/pcaweb/assets/img/portal.jpg"></img>
-      </header>
+      <div class="header">
+        <img src="/pcaweb/assets/img/portal.jpg"/>
+      </div>
+
+      <!-- IE doesn't know <header></header>!!!! -->
+      <!-- <header> -->
+      <!--   <img src="/pcaweb/assets/img/portal.jpg"></img> -->
+      <!-- </header> -->
 
       <div id="content-wrapper">
         <div class="container-fluid">
@@ -414,7 +419,8 @@ greatly help you in the exam.</p>
 
     <!-- footer -->
 
-    <footer id="footer">
+    <!-- IE knows no <footer></footer> -->
+    <div id="footer">
       <div class="container">
         <p><strong>Copyright &copy; All Right Reserved</strong></p>
         <ul class="footer-links">
@@ -426,7 +432,7 @@ greatly help you in the exam.</p>
               Dr. Daniela Marghitu</a></li>
         </ul>
       </div>
-    </footer>
+    </div>
 
     <!-- script -->
 
