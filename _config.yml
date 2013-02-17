@@ -9,5 +9,5 @@ pygments: true
 exclude: ["gh-pages/", "README.md", "Rakefile"]
 
 pca:
-  BASE_PATH: http://gongzhitaao.github.com/pcaweb
+  BASE_PATH: /pcaweb
   ASSET_PATH: false
