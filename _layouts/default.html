@@ -38,13 +38,13 @@
           </form>
 
           <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="/" accesskey="p">PORTAL</a></li>
-              <li><a href="comp1000/" accesskey="c">COMP1000</a><li>
-              <li><a href="comp1003/" accesskey="m">COMP1003</a></li>
-              <li><a href="comptest/" accesskey="t">COMP1@@0 Test</a></li>
-              <li><a href="itminor/" accesskey="i">IT MINOR</a></li>
-              <li><a href="k12/" accesskey="o">K12 OUTSTREACH</a></li>
+            <ul class="nav" id="mainnav">
+              <li><a href="/" accesskey="p">PORTAL</a></li>
+              <li><a href="/comp1000/" accesskey="c">COMP1000</a><li>
+              <li><a href="/comp1003/" accesskey="m">COMP1003</a></li>
+              <li><a href="/comptest/" accesskey="t">COMP1@@0 Test</a></li>
+              <li><a href="/itminor/" accesskey="i">IT MINOR</a></li>
+              <li><a href="/k12/" accesskey="o">K12 OUTSTREACH</a></li>
             </ul>
           </div>
         </div>
@@ -57,25 +57,31 @@
       </header>
 
       <div id="content-wrapper">
-        <div class="container-fluid row">
+        <div class="container-fluid">
 
-          <div id="pagetab" class="span12 tabbable tabs-left">
-            {{content}}
-          </div>
+          <div class="row-fluid">
 
-          <div class="slider-wrapper theme-bar">
-            <div id="slider" class="nivoSlider">
-              <img src="{{ ASSET_PATH }}/img/gallary/slide-1.jpg"/>
-              <img src="{{ ASSET_PATH }}/img/gallary/slide-2.jpg"/>
-              <img src="{{ ASSET_PATH }}/img/gallary/slide-3.jpg"/>
-              <img src="{{ ASSET_PATH }}/img/gallary/slide-4.jpg"/>
-              <img src="{{ ASSET_PATH }}/img/gallary/slide-5.jpg"/>
-              <img src="{{ ASSET_PATH }}/img/gallary/slide-6.jpg"/>
+            <!-- page nav -->
+
+            <div id="pagetab" class="span9 tabbable tabs-left">
+              {{content}}
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
+            <div class="span3 slider-wrapper theme-bar">
+              <div id="slider" class="nivoSlider">
+                <img src="{{ ASSET_PATH }}/img/gallary/slide-1.jpg"/>
+                <img src="{{ ASSET_PATH }}/img/gallary/slide-2.jpg"/>
+                <img src="{{ ASSET_PATH }}/img/gallary/slide-3.jpg"/>
+                <img src="{{ ASSET_PATH }}/img/gallary/slide-4.jpg"/>
+                <img src="{{ ASSET_PATH }}/img/gallary/slide-5.jpg"/>
+                <img src="{{ ASSET_PATH }}/img/gallary/slide-6.jpg"/>
+              </div>
+            </div>
+
+          </div> <!-- row-fluid -->
+        </div> <!-- container-fluid -->
+      </div> <!-- content-wrapper -->
+    </div> <!-- wrapper -->
 
     <!-- footer -->
 

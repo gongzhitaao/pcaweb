@@ -1,5 +1,5 @@
 
-#### Welcome to Auburn University Personal Computer Application Portal
+## Welcome to Auburn University Personal Computer Application Portal
 
 At Auburn University, we believe that inspiring more students to
 choose careers in IT and computing it's a compelling issue of

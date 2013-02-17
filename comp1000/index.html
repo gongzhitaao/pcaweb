@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<ul class="span2 nav nav-tabs">
+  <li><a href="#home" data-toggle="tab">Homepage</a></li>
+  <li><a href="#syllabus" data-toggle="tab">Syllabus</a></li>
+  <li><a href="#people" data-toggle="tab">Lab Instructors</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+      <i class="icon-chevron-right"></i>Shecule</a>
+    <ul class="dropdown-menu">
+      <li><a href="#class" data-toggle="tab">Class</a></li>
+      <li><a href="#frihelp" data-toggle="tab">Friday Help</a></li>
+      <li><a href="#exam" data-toggle="tab">Exam</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+      <i class="icon-chevron-right"></i>Help</a>
+    <ul class="dropdown-menu">
+      <li><a href="#myitlab" data-toggle="tab">MyItLab</a></li>
+      <li><a href="#otherlab" data-toggle="tab">Other Labs</a></li>
+      <li><a href="#examhelp" data-toggle="tab">Exam Help</a></li>
+    </ul>
+  </li>
+</ul>
+
+<div class="span9 tab-content">
+  <div class="tab-pane fade active in" id="home">
+    {% capture temp %}{% include comp1000/home.md %}{% endcapture %}
+    {{ temp | markdownify }}</div>
+  <div class="tab-pane fade" id="syllabus">
+    {% capture temp %}{% include comp1000/syllabus.md %}{% endcapture %}
+    {{ temp | markdownify }}</div>
+  <div class="tab-pane fade" id="people">people</div>
+  <div class="tab-pane fade" id="class">class</div>
+  <div class="tab-pane fade" id="frihelp">friday help shedule</div>
+  <div class="tab-pane fade" id="exam">exam schedule</div>
+  <div class="tab-pane fade" id="myitlab">myitlab</div>
+  <div class="tab-pane fade" id="otherlab">Other labs</div>
+  <div class="tab-pane fade" id="examhelp">Exam help</div>
+</div>

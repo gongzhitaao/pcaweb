@@ -1,12 +1,12 @@
 auto: true
 pygments: true
 lsi: false
+safe: true
 
 markdown: rdiscount
 pygments: true
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile",
-"changelog.md"]
+exclude: ["gh-pages/", "README.md", "Rakefile"]
 
 pca:
   BASE_PATH: false

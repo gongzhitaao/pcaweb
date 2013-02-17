@@ -1,9 +1,9 @@
 
-## Accessibility
+# Accessibility
 
 ---
 
-### Vision Problems?
+## Vision Problems?
 
 Most browsers today have built in visibility tools.  For Internet
 Explorer & Firefox the following keys will make pages shrink or grow.
@@ -17,7 +17,7 @@ Explorer & Firefox the following keys will make pages shrink or grow.
 <tr><td><strong>CTRL</strong> + <strong>-</strong></td><td>Zoom Out</td></tr>
 </table>
 
-### Content Control
+## Content Control
 
 This site allows for the disabling advertisements.  Disabling ads will
 remove the ads from the left hand side.  The choices below will set a
@@ -26,7 +26,7 @@ content.  The cookie only keeps track of what content to disable and
 personal information is not stored.  The site will still run with
 cookies disabled, but you will not be able to disable any content.
 
-### Available Access Keys
+## Available Access Keys
 
 To use access keys in FireFox please use <strong>SHIFT</strong> +
 <strong>ALT</strong> + *KEY*
