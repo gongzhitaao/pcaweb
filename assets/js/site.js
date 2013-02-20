@@ -1,13 +1,16 @@
+---
+---
+{% include setup %}
 
 (function ($) {
 
     var menuidx = {
-        '/pcaweb/': 1,
-        '/comp1000/': 2,
-        '/comp1003/': 3,
-        '/comptest/': 4,
-        '/itminor/': 5,
-        '/k12/': 6
+        '{{ BASE_PATH }}/': 1,
+        '{{ BASE_PATH }}/comp1000/': 2,
+        '{{ BASE_PATH }}/comp1003/': 3,
+        '{{ BASE_PATH }}/comptest/': 4,
+        '{{ BASE_PATH }}/itminor/': 5,
+        '{{ BASE_PATH }}/k12/': 6
     };
 
     $(document).ready(function() {

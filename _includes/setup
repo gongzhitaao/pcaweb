@@ -1,19 +1,12 @@
 {% capture mycache %}
 
-{% if site.safe and site.pca.BASE_PATH and site.pca.BASE_PATH != '' %}
-   {% assign BASE_PATH = site.pca.BASE_PATH %}
-   {% assign HOME_PATH = site.pca.BASE_PATH %}
+{% if site.baseurl %}
+   {% assign BASE_PATH = site.baseurl %}
 {% else %}
-   {% assign BASE_PATH = nil %}
-   {% assign HOME_PATH = "/" %}
+   {% assign BASE_PATH = 'aa' %}
 {% endif %}
 
-{% if site.pca.ASSET_PATH %}
-   {% assign ASSET_PATH = site.pca.ASSET_PATH %}
-{% else %}
-   {% capture ASSET_PATH %}{{ BASE_PATH }}/assets{% endcapture %}
-{% endif %}
+{% capture ASSET_PATH %}{{ BASE_PATH }}/assets{% endcapture %}
 
 {% endcapture %}
-
 {% assign mycache = nil %}

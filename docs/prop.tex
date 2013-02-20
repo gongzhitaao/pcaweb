@@ -1,0 +1,83 @@
+\RequirePackage[l2tabu, orthodox]{nag}
+
+\documentclass[letterpaper]{scrartcl}
+
+\usepackage[T1]{fontenc}
+%\usepackage[sc]{mathpazo}
+%\usepackage{charter}
+\usepackage{helvet}
+\usepackage{microtype}
+
+%\usepackage{algorithm, algpseudocode}
+%\usepackage{float}
+%\usepackage{amssymb, amsmath, amsthm}
+%\usepackage{mathtools}
+
+%% for displaying codes, minted is perferred.
+%% see table.tex for examples
+%\usepackage{listings}
+%\usepackage{minted}
+
+\usepackage{graphicx}
+
+%% remove space between list
+\usepackage{enumitem}
+%\setlist{nolistsep}
+\setlist{noitemsep}
+
+%\usepackage{biblatex}
+%\bibliography{default.bib}
+
+\usepackage{url}
+\usepackage[colorlinks,linkcolor=red,anchorcolor=blue,%
+  citecolor=green,unicode={true}]{hyperref}
+
+%\setlength{\textwidth}{6.5in}
+%\setlength{\textheight}{9.0in}
+%\setlength{\topmargin}{-.5in}
+%\setlength{\oddsidemargin}{-.0600in}
+%\setlength{\evensidemargin}{.0625in}
+
+%\newcommand{\secref}[1]{Section~\ref{#1}}
+
+%\newcommand{\doublespace}{\baselineskip0.34truein}
+%\newcommand{\singlespace}{\baselineskip0.16truein}
+%\newcommand{\midspace}{\baselineskip0.24truein}
+%\newcommand{\midplusspace}{\baselineskip0.26truein}
+
+\title{Personal Computer Applications}
+
+\subtitle{COMP6000 Semester Project Proposal}
+
+\author{Zhitao Gong, Xing Wu}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+{\em Personal Computer Applications at Auburn} is a website aiming at
+inspiring more students to choose careers in IT and computing.
+
+It contains information about related courses, e.g. schedules,
+syllabus, instructors, etc. and also various updates about summer
+camps and etc.
+
+\section{Proposed Work}
+
+The original site was implemented using ASP.NET.  But considering the
+website's aims, structures and features, it's more of a static
+website.  So we propose to re-implement it using
+\href{https://github.com/mojombo/jekyll}{Jekyll}, a static site
+generator, with the following goals:
+
+\begin{itemize}
+\item Restructure the website to make it more user friendly.
+\item Platform independent.
+\item Easy to maintain and update.
+\end{itemize}
+
+
+\end{document}
+
+%%  LocalWords:  tabu

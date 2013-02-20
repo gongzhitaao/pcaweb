@@ -39,12 +39,10 @@
 
           <div class="nav-collapse collapse">
             <ul class="nav" id="mainnav">
-              <li><a href="{{ BASE_PATH }}" accesskey="p">PORTAL</a></li>
-              <li><a href="{{ BASE_PATH }}/comp1000/" accesskey="c">COMP1000</a><li>
-              <li><a href="{{ BASE_PATH }}/comp1003/" accesskey="m">COMP1003</a></li>
-              <li><a href="{{ BASE_PATH }}/comptest/" accesskey="t">COMP1@@0 Test</a></li>
-              <li><a href="{{ BASE_PATH }}/itminor/" accesskey="i">IT MINOR</a></li>
-              <li><a href="{{ BASE_PATH }}/k12/" accesskey="o">K12 OUTSTREACH</a></li>
+              <li class="active"><a href="{{ BASE_PATH }}/" accesskey="p">PORTAL</a></li>
+              <li><a href="{{ BASE_PATH }}/courses/" accesskey="c">COURSES</a><li>
+              <li><a href="{{ BASE_PATH }}/k12/" accesskey="k">K12 OUTSTREACH</a></li>
+              <li><a href="{{ BASE_PATH }}/Help/" accesskey="h">HELP</a></li>
             </ul>
           </div>
         </div>
@@ -52,9 +50,10 @@
 
       <!-- header -->
 
-      <header>
-        <img src="{{ ASSET_PATH }}/img/portal.jpg"></img>
-      </header>
+      <!-- IE doesn't know <header></header>!!!! -->
+      <div class="header">
+        <img src="{{ ASSET_PATH }}/img/portal.jpg"/>
+      </div>
 
       <div id="content-wrapper">
         <div class="container-fluid">
@@ -63,20 +62,20 @@
 
             <!-- page nav -->
 
-            <div id="pagetab" class="span9 tabbable tabs-left">
+            <div id="pagetab" class="span12 tabbable tabs-left">
               {{content}}
             </div>
 
-            <div class="span3 slider-wrapper theme-bar">
-              <div id="slider" class="nivoSlider">
-                <img src="{{ ASSET_PATH }}/img/gallary/slide-1.jpg"/>
-                <img src="{{ ASSET_PATH }}/img/gallary/slide-2.jpg"/>
-                <img src="{{ ASSET_PATH }}/img/gallary/slide-3.jpg"/>
-                <img src="{{ ASSET_PATH }}/img/gallary/slide-4.jpg"/>
-                <img src="{{ ASSET_PATH }}/img/gallary/slide-5.jpg"/>
-                <img src="{{ ASSET_PATH }}/img/gallary/slide-6.jpg"/>
-              </div>
-            </div>
+            <!-- <div class="span3 slider-wrapper theme-bar"> -->
+            <!--   <div id="slider" class="nivoSlider"> -->
+            <!--     <img src="{{ ASSET_PATH }}/img/gallary/slide-1.jpg"/> -->
+            <!--     <img src="{{ ASSET_PATH }}/img/gallary/slide-2.jpg"/> -->
+            <!--     <img src="{{ ASSET_PATH }}/img/gallary/slide-3.jpg"/> -->
+            <!--     <img src="{{ ASSET_PATH }}/img/gallary/slide-4.jpg"/> -->
+            <!--     <img src="{{ ASSET_PATH }}/img/gallary/slide-5.jpg"/> -->
+            <!--     <img src="{{ ASSET_PATH }}/img/gallary/slide-6.jpg"/> -->
+            <!--   </div> -->
+            <!-- </div> -->
 
           </div> <!-- row-fluid -->
         </div> <!-- container-fluid -->
@@ -85,7 +84,8 @@
 
     <!-- footer -->
 
-    <footer id="footer">
+    <!-- IE knows no <footer></footer> -->
+    <div id="footer">
       <div class="container">
         <p><strong>Copyright &copy; All Right Reserved</strong></p>
         <ul class="footer-links">
@@ -97,7 +97,7 @@
               Dr. Daniela Marghitu</a></li>
         </ul>
       </div>
-    </footer>
+    </div>
 
     <!-- script -->
 

@@ -1,13 +1,11 @@
-auto: true
-pygments: true
-lsi: false
 safe: true
+auto: true
+server: true
+baseurl: false
+
+pygments: true
 
 markdown: rdiscount
 pygments: true
 
-exclude: ["gh-pages/", "README.md", "Rakefile"]
-
-pca:
-  BASE_PATH: /pcaweb
-  ASSET_PATH: false
+exclude: ["gh-pages", "Makefile"]
