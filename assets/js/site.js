@@ -6,11 +6,9 @@
 
     var menuidx = {
         '{{ BASE_PATH }}/': 1,
-        '{{ BASE_PATH }}/comp1000/': 2,
-        '{{ BASE_PATH }}/comp1003/': 3,
-        '{{ BASE_PATH }}/comptest/': 4,
-        '{{ BASE_PATH }}/itminor/': 5,
-        '{{ BASE_PATH }}/k12/': 6
+        '{{ BASE_PATH }}/courses/': 2,
+        '{{ BASE_PATH }}/k12/': 3,
+        '{{ BASE_PATH }}/help/': 4,
     };
 
     $(document).ready(function() {
