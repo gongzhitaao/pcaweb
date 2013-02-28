@@ -2,7 +2,6 @@
 
 
 
-
 <!DOCTYPE html>
 <html>
 
@@ -17,6 +16,10 @@
                    ROBOCAMP,COMPCAMP"/>
     <meta name="author" content="Auburn University"/>
     <meta http-equiv="Content-type" content="text/html;charset=utf-8"/>
+
+    <!--[if lt IE 9]>
+        <script src="/pcaweb/assets/js/html5shiv.js"></script>
+        <![endif]-->
 
     <link rel="shortcut icon" href="/favicon.ico"/>
     <link rel="stylesheet" href="/pcaweb/assets/css/bootstrap.min.css"/>
@@ -42,12 +45,10 @@
 
           <div class="nav-collapse collapse">
             <ul class="nav" id="mainnav">
-              <li><a href="/pcaweb" accesskey="p">PORTAL</a></li>
-              <li><a href="/pcaweb/comp1000/" accesskey="c">COMP1000</a><li>
-              <li><a href="/pcaweb/comp1003/" accesskey="m">COMP1003</a></li>
-              <li><a href="/pcaweb/comptest/" accesskey="t">COMP1@@0 Test</a></li>
-              <li><a href="/pcaweb/itminor/" accesskey="i">IT MINOR</a></li>
-              <li><a href="/pcaweb/k12/" accesskey="o">K12 OUTSTREACH</a></li>
+              <li><a href="/pcaweb/" accesskey="p">PORTAL</a></li>
+              <li><a href="/pcaweb/courses/" accesskey="c">COURSES</a></li>
+              <li><a href="/pcaweb/k12/" accesskey="k">K12 OUTSTREACH</a></li>
+              <li><a href="/pcaweb/Help/" accesskey="h">HELP</a></li>
             </ul>
           </div>
         </div>
@@ -55,14 +56,10 @@
 
       <!-- header -->
 
-      <div class="header">
-        <img src="/pcaweb/assets/img/portal.jpg"/>
-      </div>
-
       <!-- IE doesn't know <header></header>!!!! -->
-      <!-- <header> -->
-      <!--   <img src="/pcaweb/assets/img/portal.jpg"></img> -->
-      <!-- </header> -->
+      <header class="header">
+        <img src="/pcaweb/assets/img/portal.jpg"/>
+      </header>
 
       <div id="content-wrapper">
         <div class="container-fluid">
@@ -71,7 +68,7 @@
 
             <!-- page nav -->
 
-            <div id="pagetab" class="span9 tabbable tabs-left">
+            <div id="pagetab" class="span12 tabbable tabs-left">
               <ul class="span2 nav nav-tabs">
   <li><a href="#home" data-toggle="tab">Homepage</a></li>
   <li><a href="#options" data-toggle="tab">Accessibility</a></li>
@@ -162,16 +159,16 @@ Section</td><td>It's <em>H</em> for Homepage</td></tr> </table>
 
             </div>
 
-            <div class="span3 slider-wrapper theme-bar">
-              <div id="slider" class="nivoSlider">
-                <img src="/pcaweb/assets/img/gallary/slide-1.jpg"/>
-                <img src="/pcaweb/assets/img/gallary/slide-2.jpg"/>
-                <img src="/pcaweb/assets/img/gallary/slide-3.jpg"/>
-                <img src="/pcaweb/assets/img/gallary/slide-4.jpg"/>
-                <img src="/pcaweb/assets/img/gallary/slide-5.jpg"/>
-                <img src="/pcaweb/assets/img/gallary/slide-6.jpg"/>
-              </div>
-            </div>
+            <!-- <div class="span3 slider-wrapper theme-bar"> -->
+            <!--   <div id="slider" class="nivoSlider"> -->
+            <!--     <img src="/pcaweb/assets/img/gallary/slide-1.jpg"/> -->
+            <!--     <img src="/pcaweb/assets/img/gallary/slide-2.jpg"/> -->
+            <!--     <img src="/pcaweb/assets/img/gallary/slide-3.jpg"/> -->
+            <!--     <img src="/pcaweb/assets/img/gallary/slide-4.jpg"/> -->
+            <!--     <img src="/pcaweb/assets/img/gallary/slide-5.jpg"/> -->
+            <!--     <img src="/pcaweb/assets/img/gallary/slide-6.jpg"/> -->
+            <!--   </div> -->
+            <!-- </div> -->
 
           </div> <!-- row-fluid -->
         </div> <!-- container-fluid -->
@@ -196,7 +193,6 @@ Section</td><td>It's <em>H</em> for Homepage</td></tr> </table>
     </div>
 
     <!-- script -->
-
     <script src="/pcaweb/assets/js/jquery-1.9.1.min.js"></script>
     <script src="/pcaweb/assets/js/jquery.nivo.slider.min.js"></script>
     <script src="/pcaweb/assets/js/bootstrap.min.js"></script>

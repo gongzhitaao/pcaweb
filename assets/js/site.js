@@ -1,13 +1,14 @@
 
+
+
+
 (function ($) {
 
     var menuidx = {
         '/pcaweb/': 1,
-        '/pcaweb/comp1000/': 2,
-        '/pcaweb/comp1003/': 3,
-        '/pcaweb/comptest/': 4,
-        '/pcaweb/itminor/': 5,
-        '/pcaweb/k12/': 6
+        '/pcaweb/courses/': 2,
+        '/pcaweb/k12/': 3,
+        '/pcaweb/help/': 4,
     };
 
     $(document).ready(function() {

@@ -6,7 +6,7 @@
 html,body{height:100%}
 
 body{font:normal normal normal 14px/1.5em
-     Arial, Helvetica, Georgia, sans-serif}
+     "Helvetica Neue", Helvetica, Helvetica, Georgia, sans-serif}
 
 h1{font-size:2em}
 h2{font-size:1.5em}
@@ -15,7 +15,7 @@ h4{font-size:1em}
 h5{font-size:.83em}
 h6{font-size:.75em}
 
-.header{background-color:#DD550C}
+header{background-color:#DD550C}
 
 /*
  * Custom tweaks
@@ -37,8 +37,11 @@ h6{font-size:.75em}
 
 .navbar-inner{background:#03244D none;font-weight:bold;filter:none;}
 .navbar .nav>li>a{color:#DDD!important;
-                  text-shadow:black 0.1em 0.1em 0.2em}
-.navbar .nav>li .active>a{color:#222!important;text-shadow:white 0.1em 0.1em 0.2em}
+                  text-shadow:black 0.1em 0.1em 0.2em;
+                  filter:DropShadow(color=black,OffX=.05em,OffY=.05em)}
+.navbar .nav>li .active>a{color:#222!important;
+                          text-shadow:white 0.1em 0.1em 0.2em;
+                         filter:DropShadow(color=white,OffX=0.05em,OffY=0.05em)!important}
 .navbar .nav>li>a:hover{color:white!important}
 
 .dropdown-menu{left:50px}
