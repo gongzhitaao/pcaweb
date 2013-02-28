@@ -15,6 +15,10 @@
     <meta name="author" content="Auburn University"/>
     <meta http-equiv="Content-type" content="text/html;charset=utf-8"/>
 
+    <!--[if lt IE 9]>
+        <script src="{{ ASSET_PATH }}/js/html5shiv.js"></script>
+        <![endif]-->
+
     <link rel="shortcut icon" href="/favicon.ico"/>
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/nivo-bar.css"/>
@@ -51,9 +55,9 @@
       <!-- header -->
 
       <!-- IE doesn't know <header></header>!!!! -->
-      <div class="header">
+      <header class="header">
         <img src="{{ ASSET_PATH }}/img/portal.jpg"/>
-      </div>
+      </header>
 
       <div id="content-wrapper">
         <div class="container-fluid">
@@ -100,7 +104,6 @@
     </div>
 
     <!-- script -->
-
     <script src="{{ ASSET_PATH }}/js/jquery-1.9.1.min.js"></script>
     <script src="{{ ASSET_PATH }}/js/jquery.nivo.slider.min.js"></script>
     <script src="{{ ASSET_PATH }}/js/bootstrap.min.js"></script>
