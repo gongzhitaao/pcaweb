@@ -47,7 +47,9 @@ header{background-color:#DD550C}
 .footer-links li{display:inline;padding:0 2px}
 .footer-links a{color:#DDD}
 
-.ac-ctrl{display:block;cursor:pointer;padding:6px;position:absolute}
+.ac-title{font-weight:bold}
+.ac-ctrl{float:right;margin:6px;opacity:.5}
+.accordion-inner li{list-style-type:none}
 
 @font-face {
     font-family: 'Open Sans';
