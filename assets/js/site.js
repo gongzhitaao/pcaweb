@@ -4,20 +4,9 @@
 
 (function ($) {
 
-    var menuidx = {
-        '': 1,
-        'courses': 2,
-        'k12': 3,
-        'help': 4,
-    };
-
-    var navidx = {
-        'syllabus': 1,
-        'schedule': 2,
-    };
-
     var o = {
         titleClass: 'ac-title',
+        activeClass: 'ac-active',
         controlClass: 'ac-ctrl',
         expandedHTML: '&#9662;',
         collapsedHTML: '&#9656;'
@@ -31,13 +20,16 @@
         
         var offset = 1;
         
-        $('#mainnav li:nth-child(' + menuidx[tmp[1+offset]] + ')').addClass('active');
+        $('#nav-' + tmp[1+offset]).addClass('active');
 
         var f = $("<span></span>", {'class': o.controlClass}).html(o.collapsedHTML);
         $('.' + o.titleClass).before(f);
 
         if (tmp[2+offset]) {
-            $('#' + tmp[2+offset]).addClass('in');
+            $('#' + tmp[2+offset]).addClass('in')
+                .prev().children('.' + o.controlClass).html(o.expandedHTML);
+            $('#' + tmp[2+offset]).prev().children('.' + o.titleClass).css({opacity:1});
+            $('#' + tmp[2+offset] + '-' + tmp[3+offset]).addClass(o.activeClass)
         }
 
         $('.collapse')
