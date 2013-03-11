@@ -10,11 +10,7 @@ all : $(PROJ)
 $(PROJ) :
 	jekyll $(JEKYLL_FLAGS)
 
-master :
-	git add . && git commit -a && git push origin master
-
 gh-pages : $(PROJ)
-	cp -rp $(SITE)/* $(GH_PAGES)/ && cd $(GH_PAGES)/;\
-	git add . && git commit && git push origin gh-pages
+	cp -rp $(SITE)/* $(GH_PAGES)/
 
-.PHONE : all $(PROJ) master gh-pages
+.PHONE : all $(PROJ) gh-pages

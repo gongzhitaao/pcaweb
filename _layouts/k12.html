@@ -6,19 +6,22 @@ layout: default
 
 <div id="k12nav" class="accordion span2">
 
-  {% assign tmp = 'homepage,people,gallary,history' | split: ',' %}
+  {% assign tmp = 'people,gallary,history' | split: ',' %}
 
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse"
-         data-parent="#k12nav" href="#compcamp">
-        COMPCAMP</a>
+      <span class="accordion-toggle ac-title" data-toggle="collapse"
+            data-parent="#k12nav" href="#compcamp">
+        COMPCAMP</span>
     </div>
     <div id="compcamp" class="accordion-body collapse">
       <div class="accordion-inner">
         <ul>
+          <li id="compcamp-">
+            <a href="{{ BASE_PATH }}/k12/compcamp">
+              Homepage</a></li>
           {% for t in tmp %}
-          <li>
+          <li id="compcamp-{{ t }}">
             <a href="{{ BASE_PATH }}/k12/compcamp/{{ t }}">
               {{ t | capitalize }}</a></li>
           {% endfor %}
@@ -27,19 +30,22 @@ layout: default
     </div>
   </div>
 
-  {% assign tmp = 'homepage,people,gallary,tutorial,clothing,history' | split: ',' %}
+  {% assign tmp = 'people,gallary,tutorial,clothing,history' | split: ',' %}
 
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse"
-         data-parent="#k12nav" href="#robocamp">
-        ROBOCAMP</a>
+      <span class="accordion-toggle ac-title" data-toggle="collapse"
+            data-parent="#k12nav" href="#robocamp">
+        ROBOCAMP</span>
     </div>
     <div id="robocamp" class="accordion-body collapse">
       <div class="accordion-inner">
         <ul>
+          <li id="robocamp-">
+            <a href="{{ BASE_PATH }}/k12/robocamp">
+              Homepage</a></li>
           {% for t in tmp %}
-          <li>
+          <li id="robocamp-{{ t }}">
             <a href="{{ BASE_PATH }}/k12/robocamp/{{ t }}">
               {{ t | capitalize }}</a></li>
           {% endfor %}

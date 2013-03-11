@@ -15,12 +15,15 @@ layout: default
     <div id="comp1000" class="accordion-body collapse">
       <div class="accordion-inner">
         <ul>
-          <li>
-            <a href="{{ BASE_PATH }}/courses/comp1000/syllabus">
-              Syllabus</a></li>
-          <li>
-            <a href="{{ BASE_PATH }}/courses/comp1000/schedule">
-              Schedule</a></li>
+          <li id="comp1000-">
+            <a href="{{ BASE_PATH }}/courses/comp1000">
+              Overview</a></li>
+          {% assign items = 'syllabus,schedule' | split:',' %}
+          {% for i in items %}
+          <li id="comp1000-{{ i }}">
+            <a href="{{ BASE_PATH }}/courses/comp1000/{{ i }}">
+              {{ i | capitalize }}</a></li>
+          {% endfor %}
         </ul>
       </div>
     </div>
@@ -31,16 +34,22 @@ layout: default
   {% for comp in comps %}
   <div class="accordion-group">
     <div class="accordion-heading">
-      <a class="accordion-toggle" data-toggle="collapse"
-         data-parent="#coursesnav" href="#{{ comp }}">
-        {{ comp | upcase }}</a>
+      <span class="accordion-toggle ac-title" data-toggle="collapse"
+            data-parent="#coursesnav" href="#{{ comp }}">
+        {{ comp | upcase }}</span>
     </div>
     <div id="{{ comp }}" class="accordion-body collapse">
       <div class="accordion-inner">
         <ul>
-          <li>
-            <a href="{{ BASE_PATH }}/courses/{{ comp }}/syllabus">
-              Syllabus</a></li>
+          <li id="{{ comp }}-">
+            <a href="{{ BASE_PATH }}/courses/{{ comp }}">
+              Overview</a></li>
+          {% assign items = 'syllabus' | split:',' %}
+          {% for i in items %}
+          <li id="{{ comp }}-{{ i }}">
+            <a href="{{ BASE_PATH }}/courses/{{ comp }}/{{ i }}">
+              {{ i | capitalize }}</a></li>
+          {% endfor %}
         </ul>
       </div>
     </div>
