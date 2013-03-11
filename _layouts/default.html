@@ -1,3 +1,5 @@
+---
+---
 {% include setup %}
 
 <!DOCTYPE html>
@@ -21,8 +23,6 @@
 
     <link rel="shortcut icon" href="/favicon.ico"/>
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/nivo-bar.css"/>
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/nivo-slider.css"/>
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/site.css"/>
   </head>
 
@@ -59,30 +59,12 @@
         <img src="{{ ASSET_PATH }}/img/portal.jpg"/>
       </header>
 
-      <div id="content-wrapper">
-        <div class="container-fluid">
+      <div id="content-wrapper" class="container-fluid">
+        <div class="row-fluid">
 
-          <div class="row-fluid">
+          {{content}}
 
-            <!-- page nav -->
-
-            <div id="pagetab" class="span12 tabbable tabs-left">
-              {{content}}
-            </div>
-
-            <!-- <div class="span3 slider-wrapper theme-bar"> -->
-            <!--   <div id="slider" class="nivoSlider"> -->
-            <!--     <img src="{{ ASSET_PATH }}/img/gallary/slide-1.jpg"/> -->
-            <!--     <img src="{{ ASSET_PATH }}/img/gallary/slide-2.jpg"/> -->
-            <!--     <img src="{{ ASSET_PATH }}/img/gallary/slide-3.jpg"/> -->
-            <!--     <img src="{{ ASSET_PATH }}/img/gallary/slide-4.jpg"/> -->
-            <!--     <img src="{{ ASSET_PATH }}/img/gallary/slide-5.jpg"/> -->
-            <!--     <img src="{{ ASSET_PATH }}/img/gallary/slide-6.jpg"/> -->
-            <!--   </div> -->
-            <!-- </div> -->
-
-          </div> <!-- row-fluid -->
-        </div> <!-- container-fluid -->
+        </div> <!-- row-fluid -->
       </div> <!-- content-wrapper -->
     </div> <!-- wrapper -->
 
@@ -90,7 +72,7 @@
 
     <!-- IE knows no <footer></footer> -->
     <div id="footer">
-      <div class="container">
+      <div class="container-fluid">
         <p><strong>Copyright &copy; All Right Reserved</strong></p>
         <ul class="footer-links">
           <li><a href="www.auburn.edu">Auburn University</a></li>
@@ -105,7 +87,6 @@
 
     <!-- script -->
     <script src="{{ ASSET_PATH }}/js/jquery-1.9.1.min.js"></script>
-    <script src="{{ ASSET_PATH }}/js/jquery.nivo.slider.min.js"></script>
     <script src="{{ ASSET_PATH }}/js/bootstrap.min.js"></script>
     <script src="{{ ASSET_PATH }}/js/site.js"></script>
   </body>

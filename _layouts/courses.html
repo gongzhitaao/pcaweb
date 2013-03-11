@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+{% include setup %}
+
+<div id="coursesnav" class="accordion span2">
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <span class="accordion-toggle ac-title" data-toggle="collapse"
+            data-parent="#coursesnav" href="#comp1000">
+        COMP1000</span>
+    </div>
+    <div id="comp1000" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <ul>
+          <li>
+            <a href="{{ BASE_PATH }}/courses/comp1000/syllabus">
+              Syllabus</a></li>
+          <li>
+            <a href="{{ BASE_PATH }}/courses/comp1000/schedule">
+              Schedule</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  {% assign comps = 'comp1003,comp2000,comp3010,comp3013,comp5000' | split:',' %}
+
+  {% for comp in comps %}
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse"
+         data-parent="#coursesnav" href="#{{ comp }}">
+        {{ comp | upcase }}</a>
+    </div>
+    <div id="{{ comp }}" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <ul>
+          <li>
+            <a href="{{ BASE_PATH }}/courses/{{ comp }}/syllabus">
+              Syllabus</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
+
+<div class="span10">
+  {{ content }}
+</div>

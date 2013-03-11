@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+{% include setup %}
+
+<div id="k12nav" class="accordion span2">
+
+  {% assign tmp = 'homepage,people,gallary,history' | split: ',' %}
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse"
+         data-parent="#k12nav" href="#compcamp">
+        COMPCAMP</a>
+    </div>
+    <div id="compcamp" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <ul>
+          {% for t in tmp %}
+          <li>
+            <a href="{{ BASE_PATH }}/k12/compcamp/{{ t }}">
+              {{ t | capitalize }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  {% assign tmp = 'homepage,people,gallary,tutorial,clothing,history' | split: ',' %}
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse"
+         data-parent="#k12nav" href="#robocamp">
+        ROBOCAMP</a>
+    </div>
+    <div id="robocamp" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <ul>
+          {% for t in tmp %}
+          <li>
+            <a href="{{ BASE_PATH }}/k12/robocamp/{{ t }}">
+              {{ t | capitalize }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="span10">
+  {{ content }}
+</div>
