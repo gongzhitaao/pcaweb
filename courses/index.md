@@ -1,5 +1,6 @@
 ---
 layout: courses
+subtitle: at Auburn University
 ---
 
 # Welcome to Personal Computer Applications at Auburn University

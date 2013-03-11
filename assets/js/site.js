@@ -15,7 +15,7 @@
     $(document).ready(function() {
 
         // highlight main menu
-        var path = window.location.pathname;
+        var path = window.location.pathname.replace(/@/g, 'a');
         var tmp = path.split('/');
         {% if BASE_PATH and BASE_PATH != '' %}
         var offset = 1;

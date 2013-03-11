@@ -17,10 +17,6 @@
     <meta name="author" content="Auburn University"/>
     <meta http-equiv="Content-type" content="text/html;charset=utf-8"/>
 
-    <!--[if lt IE 9]>
-        <script src="{{ ASSET_PATH }}/js/html5shiv.js"></script>
-        <![endif]-->
-
     <link rel="shortcut icon" href="/favicon.ico"/>
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/site.css"/>
@@ -56,7 +52,21 @@
 
       <!-- IE doesn't know <header></header>!!!! -->
       <header class="header">
-        <img src="{{ ASSET_PATH }}/img/portal.jpg"/>
+        <img src="{{ ASSET_PATH }}/img/shelby.png"/>
+        <h1 class="title">
+          {% if page.title %}
+          {{ page.title }}
+          {% else %}
+          Personal Computer Application
+          {% endif %}
+        </h1>
+        <h3 class="subtitle">
+          {% if page.subtitle %}
+          {{ page.subtitle }}
+          {% else %}
+          PERSONAL COMPUTER APPLICATION
+          {% endif %}
+        </h3>
       </header>
 
       <div id="content-wrapper" class="container-fluid">
