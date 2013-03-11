@@ -5,10 +5,10 @@
 (function ($) {
 
     var menuidx = {
-        '/': 1,
-        '/courses': 2,
-        '/k12': 3,
-        '/help': 4,
+        '/pcaweb/': 1,
+        '/pcaweb/courses': 2,
+        '/pcaweb/k12': 3,
+        '/pcaweb/help': 4,
     };
 
     var o = {
@@ -23,7 +23,7 @@
         // highlight main menu
         var path = window.location.pathname;
         var tmp = path.split('/');
-        $('#mainnav li:nth-child(' + menuidx['/' + tmp[1]] + ')').addClass('active');
+        $('#mainnav li:nth-child(' + menuidx['/pcaweb/' + tmp[1]] + ')').addClass('active');
 
         var f = $("<span></span>", {'class': o.controlClass}).html(o.collapsedHtml)
         $('.' + o.titleClass).before(f);
