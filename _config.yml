@@ -6,4 +6,4 @@ baseurl: false
 pygments: true
 pygments: true
 
-exclude: ["gh-pages", "Makefile"]
+exclude: ["gh-pages", "Makefile", "docs"]

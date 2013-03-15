@@ -1,19 +1,16 @@
 
+PROJ=pcaweb
 SITE=_site
 GH_PAGES=gh-pages
 BASE_URL=/pcaweb
 JEKYLL_FLAGS=--no-auto --no-server --base-url $(BASE_URL)
 
-all : pcaweb
+all : $(PROJ)
 
-pcaweb :
+$(PROJ) :
 	jekyll $(JEKYLL_FLAGS)
 
-master :
-	git add . && git commit -a && git push origin master
+gh-pages : $(PROJ)
+	cp -rp $(SITE)/* $(GH_PAGES)/
 
-gh-pages : pcaweb
-	cp -rp $(SITE)/* $(GH_PAGES)/ && cd $(GH_PAGES)/
-	git add . && git commit -a && git push origin gh-pages
-
-.PHONE : all pcaweb master gh-pages
+.PHONE : all $(PROJ) gh-pages

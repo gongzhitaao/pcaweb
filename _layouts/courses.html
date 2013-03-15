@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+{% include setup %}
+
+<div id="coursesnav" class="accordion span2">
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <span class="accordion-toggle ac-title" data-toggle="collapse"
+            data-parent="#coursesnav" href="#comp1000">
+        COMP1000</span>
+    </div>
+    <div id="comp1000" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <ul>
+          <li id="comp1000-">
+            <a href="{{ BASE_PATH }}/courses/comp1000">
+              Overview</a></li>
+          {% assign items = 'syllabus,schedule' | split:',' %}
+          {% for i in items %}
+          <li id="comp1000-{{ i }}">
+            <a href="{{ BASE_PATH }}/courses/comp1000/{{ i }}">
+              {{ i | capitalize }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  {% assign comps = 'comp1003,comp2000,comp3010,comp3013,comp5000' | split:',' %}
+
+  {% for comp in comps %}
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <span class="accordion-toggle ac-title" data-toggle="collapse"
+            data-parent="#coursesnav" href="#{{ comp }}">
+        {{ comp | upcase }}</span>
+    </div>
+    <div id="{{ comp }}" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <ul>
+          <li id="{{ comp }}-">
+            <a href="{{ BASE_PATH }}/courses/{{ comp }}">
+              Overview</a></li>
+          {% assign items = 'syllabus' | split:',' %}
+          {% for i in items %}
+          <li id="{{ comp }}-{{ i }}">
+            <a href="{{ BASE_PATH }}/courses/{{ comp }}/{{ i }}">
+              {{ i | capitalize }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <span class="accordion-toggle ac-title" data-toggle="collapse"
+            data-parent="#coursesnav" href="#comp1aa0">
+        COMP1@@0</span>
+    </div>
+    <div id="comp1aa0" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <ul>
+          <li id="comp1aa0-">
+            <a href="{{ BASE_PATH }}/courses/comp1@@0">
+              Overview</a></li>
+          <li id="comp1aa0-schedule">
+            <a href="{{ BASE_PATH }}/courses/comp1@@0/schedule">
+              Schedule</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="span10">
+  {{ content }}
+</div>
