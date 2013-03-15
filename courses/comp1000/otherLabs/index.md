@@ -8,13 +8,13 @@ layout: courses
 
 The following labs are available for finishing all classwork (including SharePoint class assignments) and taking MyItLab quizzes.
 
-*	<strong>Lowder</strong>
+*	__Lowder__
 	*	Room 011
-*	<strong>Parker</strong>
+*	__Parker__
 	*	Room 252
 	*	Room 254
 	*	Room 256
-*	<strong>Comer</strong>
+*	__Comer__
 	*	Room 206
 *	__Rouse__
 	*	Room 105
