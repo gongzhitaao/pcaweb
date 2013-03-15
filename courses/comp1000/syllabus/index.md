@@ -298,3 +298,53 @@ the Exams web page.  The MyITLab skill modules will be made available
 online at the end of each course topic.  You should expect to do well
 on these modules if you carefully study and understand the associated
 course topic.  The final course average will be computed as follows.
+
+<table border="1" align="center" summary="Class Point Distribution">
+<thead> 
+<tr>
+<td style="font-size: 16px;" colspan="3"><strong>Class Point Distribution</strong></td>
+</tr>
+<tr>
+<td><strong>Topic</strong></td>
+<td><strong>Percentage</strong></td>
+<td><strong>Points</strong></td>
+</tr>
+</thead> 
+<tbody>
+<tr>
+<td>Text Book Assignments and Case Studies</td>
+<td>30%</td>
+<td>300</td>
+</tr>
+<tr>
+<td>MyITLab Assignments</td>
+<td>10%</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Exam 1</td>
+<td>10%</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Exam 2</td>
+<td>10%</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Exam 3</td>
+<td>10%</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Final Exam</td>
+<td>30%</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Total Points</td>
+<td>100%</td>
+<td>1000</td>
+</tr>
+</tbody>
+</table>
