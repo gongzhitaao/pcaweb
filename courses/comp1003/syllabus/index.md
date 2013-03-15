@@ -79,35 +79,39 @@ The objectives of this course are to:
 
 ## Course Requirements
 
-1.	__Mandatory Training__
+__1.	Mandatory Training__
 
 The training is available at Prentice Hall MyITLab website. You are strongly advised to work on these training sessions in order to receive your grade. The website address is http://www.pearsoncustom.com/al/au_mitl/. A student access code is necessary to register for MyITLab online which will be provided in the textbook package. 
 
-2.	__Assignments__
+__2.	Assignments__
 
 There are three types of homework assignments, MyITLab, Hands-on, and Practice Exercises. Hands-on, and Practice Exercises are available in the text book and submitted using Canvas. Each assignment is worth 5 points. It is required that students read the assignment and take the required MyITLab skills based assignments before class. __Unexcused Canvas late work can be turned in by one week. Thereafter, the assignment will not be accepted and CAN NOT be turned in for a late penalty deduction.__
-	*	The first few chapters covered on MyITLab will test students using exams in multiple choice format.  Thereafter, all MyITLab exams will be in skill-based format.  The skill-based training will include a pre-test, training, and post-test.  Students will begin by taking the pre-test.  If a student scores 60% or above on the pre-test, the student will be allowed to advance to the post-test without taking the training module.  If a student scores below 60% that student will be required to take the training module, and will be required to earn 100% on the training module before advancing to the post-test.  Therefore, students who receive below 60% on the pre-test will need to re-take the training module until they have earned 100%.  Afterwards, the student will be allowed to take the post-test.  The post-test grade is the final portion of the skill-based training, and the grade earned on the post-test will be the grade that is considered in the student's final MyITLab average.
-	*	MyITLab assignments may be submitted after the due date with a 10% late penalty applied.  Students who wish to submit MyITLab assignments after the due date may do so until the last day of class with late penalty.  __After the last day of class, MyITLab assignments will no longer be accepted.__
-	*	MyITLab is compatible only with Windows PC machines and Internet Explorer.  MyITLab is compatible with MAC computers following the proper instructions which can be found on the myITlab tab, but NOT compatible with FireFox, Safari, Chrome, or Opera.
-	*	All COMP 1000 lab computers have been configured to run MyITLab, however if a student wishes to install MyITLab on his or her personal laptop, he or she must install the needed software in class on the first day of class.  If not, the student will be required to use the COMP 1000 lab to complete MyITLab assignments.  If a student wishes to use his or her personal laptop computer, it is the student's responsibility to ensure that the machine is in working condition and will allow assignments to be submitted by the due date. A students failure to get their personal computer working properly with myITlab will not be considered a valid reason for submitting work late.
 
-3.	__Case Study 1 & 2__
+*		The first few chapters covered on MyITLab will test students using exams in multiple choice format.  Thereafter, all MyITLab exams will be in skill-based format.  The skill-based training will include a pre-test, training, and post-test.  Students will begin by taking the pre-test.  If a student scores 60% or above on the pre-test, the student will be allowed to advance to the post-test without taking the training module.  If a student scores below 60% that student will be required to take the training module, and will be required to earn 100% on the training module before advancing to the post-test.  Therefore, students who receive below 60% on the pre-test will need to re-take the training module until they have earned 100%.  Afterwards, the student will be allowed to take the post-test.  The post-test grade is the final portion of the skill-based training, and the grade earned on the post-test will be the grade that is considered in the student's final MyITLab average.
+
+*		MyITLab assignments may be submitted after the due date with a 10% late penalty applied.  Students who wish to submit MyITLab assignments after the due date may do so until the last day of class with late penalty.  __After the last day of class, MyITLab assignments will no longer be accepted.__
+
+*		MyITLab is compatible only with Windows PC machines and Internet Explorer.  MyITLab is compatible with MAC computers following the proper instructions which can be found on the myITlab tab, but NOT compatible with FireFox, Safari, Chrome, or Opera.
+
+*		All COMP 1000 lab computers have been configured to run MyITLab, however if a student wishes to install MyITLab on his or her personal laptop, he or she must install the needed software in class on the first day of class.  If not, the student will be required to use the COMP 1000 lab to complete MyITLab assignments.  If a student wishes to use his or her personal laptop computer, it is the student's responsibility to ensure that the machine is in working condition and will allow assignments to be submitted by the due date. A students failure to get their personal computer working properly with myITlab will not be considered a valid reason for submitting work late.
+
+__3.	Case Study 1 & 2__
 
 There are two case studies available and submitted in course website on Canvas. An Integrated Case Study with Microsoft Office 2010 and the other is a SharePoint Case Study. Each case study is worth 50 points. More information about the studies is available in the course website on Canvas. 
 
-4.	__Examination 1__
+__4.	Examination 1__
 
 There will be a proctored Examination 1 available on myITlab. The examination will cover the material from topics 1 - 4.   This is designed to give an opportunity to review all that the students have learned until this point in time, and is skill-based. Completing your myITlab assignments will greatly help you in the exam. 
 
-5.	__Examination 2__
+__5.	Examination 2__
 
 There will be a proctored Examination 2 available on  myITlab . The examination will cover the material from topics 5 - 6.   This is designed to give an opportunity to review all that the students have learned until this point in time, and is skill-based. Completing your myITlab assignments will greatly help you in the exam.  
 
-6.	__Examination 3__
+__6.	Examination 3__
 
 There will be a proctored Examination 3 available on  myITlab . The examination will cover the material from topics 7 - 9.  This is designed to give an opportunity to review all that the students have learned until this point in time, and is skill-based. Completing your myITlab assignments will greatly help you in the exam.
 
-7.	__Final Examination__
+__7.	Final Examination__
 
 There will be a proctored final examination at the end of the semester that will be available on  myITlab . This final examination will cover the material from topics 1 - 9. The examination is designed to give an opportunity to review all that the students have learned from the beginning to this point in time. It is __comprehensive__ and will last for 2 ½  hours.  Completing your myITlab assignments will greatly help you in the exam.
 
