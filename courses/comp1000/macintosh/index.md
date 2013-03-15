@@ -22,6 +22,7 @@ Another option available to Mac users is to run virtualization software, which e
 
 ## Remote Desktop Connection
 Users can now run myITlab without having to install windows on your MAC. If you wish you can still use one of the other methods for running myITlab on a MAC.
+
 You can register for myITlab at: <http://www.myitlab.com/student-registration/>
 MAC users login here: <http://wps.prenhall.com/bp_myitlab2010_macuser/>
 Software needed for running myITlab on MAC (This can also be accessed from the MAC user login page): [RDC Download](http://media.pearsoncmg.com/ph/bp/bp_myitlab/RDC_2.1.1_ALL.dmg)
