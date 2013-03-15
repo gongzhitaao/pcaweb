@@ -348,3 +348,84 @@ course topic.  The final course average will be computed as follows.
 </tr>
 </tbody>
 </table>
+
+The final course grade will be determined by the final class average using the scale below, with the following constraint: to earn a passing grade in this course, a student must earn a passing grade for the assignment average (assignment includes all Lab assignments and the two Case Studies but NOT the MyITLab assignments). An assignment average below 60% will result in an F in the course.
+
+<table border="1" align="center" summary="Grade Scale">
+<thead> 
+<tr>
+<td style="font-size: 16px; font-weight: bold;" colspan="3">Grade Scale</td>
+</tr>
+<tr>
+<td><strong>Percentage</strong></td>
+<td><strong>Minimal Score</strong></td>
+<td><strong>Grade</strong></td>
+</tr>
+</thead> 
+<tbody>
+<tr>
+<td>90% or above</td>
+<td>895</td>
+<td>A</td>
+</tr>
+<tr>
+<td>80% - 89%</td>
+<td>795</td>
+<td>B</td>
+</tr>
+<tr>
+<td>70% - 79%</td>
+<td>695</td>
+<td>C</td>
+</tr>
+<tr>
+<td>60% - 69%</td>
+<td>595</td>
+<td>D</td>
+</tr>
+<tr>
+<td>Less than 60%</td>
+<td>0</td>
+<td>F</td>
+</tr>
+</tbody>
+</table>
+
+Students are not allowed to redo quizzes and examinations. Therefore, they should check their work carefully with criteria statements before turning in assignments or examinations.
+*Exams are open book, closed computer.*
+*60% Rule*
+Out of the 300 possible points for 'Textbook Assignments and Case Studies' a minimum of 180 points must be obtained or the student will automatically fail the course without consideration of the other grades. Students that do not complete 60% of their assigned course work will not be able to pass. MyITLab assignments DO NOT count toward the 180/300 points needed to satisfy the 60% rule.
+
+## Grading
+
+*IT IS YOUR RESPONSIBILITY TO MAKE SURE THAT YOUR HOMEWORK IS CORRECTLY UPLOADED TO CANVAS. If you fail to upload an assignment correctly it is up to each instructor to determine if they will allow you to correct this mistake.*
+
+It is also your responsibility to make sure you have submitted the correct assignment and in the correct format. After you submit an assignment please check and make sure it appears on Canvas and that the correct file has been submitted for that assignment. Additionally you have 7 days after your grade is posted to discuss that grade. After 7 days the grade is no longer up for discussion and will be final.
+*	Canvas assignments are due on the date assigned in class. However if, the student is unable to complete the full assignment in class, he or she will have one week from the date assigned to submit the assignment on Canvas without a late penalty. For example, if an assignment is assigned on August 10 in class, the student will have until August 17 to submit the assignment on Canvas without penalty. <u>After 11:00 p.m. on the date assigned the student will see "Late" next to the assignment, however this is only a reminder that the assignment still needs to be submitted within the one week interval.</u> No late penalty will be applied.** After this one week interval, the assignment will close and the student will not be able to submit his or her work.**
+*	Please note that the last week of school is not the time to be asking if you can submit assignments or make up missed assignments. Unless you can provide the required valid University approved excusses you will not be allowed to make up any missed work. The quicker you take action the more of a chance you may have. It is at the discrection of the instructor as to weather or not they will allow you to submit assignments after their due date without a penatly.** Just because you were able to submit one assignment late does not mean that you will be allowed to submit the next.**
+
+### Assignment Makeup
+When you miss class and have a valid university excuse you will have a two week grace period to make up late assignments without penalty when you return to class. After the two week grace period late assignments will not be accepted for points.
+*	Students will have 7 days from the date listed on the make-up document to present this document to the instructor and make plans for submitting make-up work. After this time, the excuse will not be accepted.
+
+### Communication Channels
+The ONLY official method of communication between Instructor and students is Tigermail. Any use of Canvas's or myITlab's build in mail system are not considered official lines of communication and anything sent using them will not be considered valid work/communication and is not subject to the rules and conditions set forth in this syllabus. Both mail systems are not actively monitored and messages that are found will be removed without consideration for their content since they are not binding communications between instructor and student.
+Any email between Instructor and student using Tigermail will be considered official communication and will be subject to follow all guidelines set forth in this syllabus.
+The Announcement section that displays after entering your section of myITlab is also considered an official form of communication and any information that is located there will be considered binding to the syllabus.
+
+### Attendance
+Attendance is essential if a student is to understand and assimilate the material in this course. If a student must miss a class, he/she should make arrangements ahead of time to complete the assignment and turn it in on time. Since class time is so limited, assistance or lecture information for completing an assignment that was done/due in a previous class will not be provided during a subsequent class. Instructors post their slides for each day of class,** students are responsible for keeping up with their work. **The instructor is not required to send emails or remind students of assignment due dates beyond the inital introduction of the assignment/test itself.
+
+### Make-up Exams
+Make-ups will only be given with a valid university excuse. This means a Doctors statement (not an In-Out slip) or other documentation must be provided. All make-ups will be given on one of the two designated Makeup Days. The student is responsible for informing the instructor prior to missing an exam no later than one week after the exam official date.** Please remember that in order to take an exam after missing a make-up day, you will need to present 2 excuses (one for the day of the exam, and one for the make-up day).**
+
+### Friday Help
+In order to provide assistance with make-up assignments and in general for helping students in accomplishing as much as possible, we offer Friday Help sessions, on Fridays from 10:00 am to 3:00 pm. One of the COMP1000 instructors will be in COMP1000 lab to help the COMP1000 students. Please make use of this opportunity as it will be a great help to your understanding of the topics covered as well as provide more time for you to ask questions if you need it.
+
+### Students with Disabilities
+Auburn University is committed to providing accommodations and services to students with documented disabilities. Any student with a qualified disability which requires accommodations should contact The Program for Students with Disabilities, 1244 Haley Center, Auburn University, AL 36849, 334-844-2096 PH, 334-844-2099 FAX. More information is available on their website at <www.auburn.edu/disability/>. The office will fax or mail the required forms to students to apply for services. Students who have questions to participate in this course should contact the above office in advance to ensure proper accommodations. 
+
+### Plagiarism and Academic Dishonesty
+Plagiarism is the act of presenting directly or indirectly someone elseâ€™s work as your own. Plagiarism is a major type of academic dishonesty and will not be tolerated. Similarly cheating on tests in any way, falsifying bibliographies, fraudulent quotes, and similar practices are intolerable forms of academic dishonesty. The Universityâ€™s policy for academic misconduct in the Student Code of Conduct will be followed for this course (Tiger Club, pp. 83 and 92). If any questions regarding its contents, please contact the instructor.
+
+
