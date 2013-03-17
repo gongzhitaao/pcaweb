@@ -21,10 +21,6 @@ layout: courses
 <td><strong>Office Phone:</strong></td>
 <td>TBA</td>
 </tr>
-<tr>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
 </tbody>
 </table>
 
@@ -37,13 +33,19 @@ This course provides learners with knowledge, skills, practice and experience in
 ### Required Materials
 
 >	__New Perspectives on  HTML  and XHTML Third Edition - Comprehensive__
+
 >	ISBN: 0-619-26747-X
+
 >	Authors: Patrick Carey
+
 >	Course Technology Publishing Co.
 
 >	__Java Programming Third Edition__
+>
 >	ISBN : 0-619-21319-1
+>
 >	Author : Joyce Farrell
+>
 >	Course Technology Publishing Co.
 
 An Auburn University Engineering Network Student Account and an Auburn University IT Student Account are required.
