@@ -34,20 +34,20 @@ In the COMP 3010 Spreadsheet-Based Applications with Visual Basic course, studen
 
 The topics in this course provide a thorough knowledge of the skills on the following core topics. 
 
-1.	Reinforcement of Excel 2010 concepts and skills
-2.	Introduction to Object Oriented Programming concepts and skills
-3.	Working with Excel and Macros
-4.	Working with Excel and VBA
-5.	Introduction to VBA
-6.	VBA Variables, Data Types and constants
-7.	Working with Ranges
-8.	Looping and Flow Control
-9.	Arrays
-10.  Working with User-Defined Functions
-11.	 Event Programming
-12.	 Creating Classes, Records and Collections
-13.	 Introduction to API
-14.	 Application Development with Excel and VBA
+1. Reinforcement of Excel 2010 concepts and skills
+2. Introduction to Object Oriented Programming concepts and skills
+3. Working with Excel and Macros
+4. Working with Excel and VBA
+5. Introduction to VBA
+6. VBA Variables, Data Types and constants
+7. Working with Ranges
+8. Looping and Flow Control
+9. Arrays
+10. Working with User-Defined Functions
+11. Event Programming
+12. Creating Classes, Records and Collections
+13. Introduction to API
+14. Application Development with Excel and VBA
 
 ### Course Objectives:
 
