@@ -40,12 +40,13 @@ This course provides learners with knowledge, skills, practice and experience in
 
 >	Course Technology Publishing Co.
 
+
 >	__Java Programming Third Edition__
->
+
 >	ISBN : 0-619-21319-1
->
+
 >	Author : Joyce Farrell
->
+
 >	Course Technology Publishing Co.
 
 An Auburn University Engineering Network Student Account and an Auburn University IT Student Account are required.
