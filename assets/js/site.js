@@ -18,7 +18,7 @@
         var path = window.location.pathname.replace(/@/g, 'a');
         var tmp = path.split('/');
         
-        var offset = 0;
+        var offset = 1;
         
         $('#nav-' + tmp[1+offset]).addClass('active');
 
