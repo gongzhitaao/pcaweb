@@ -17,7 +17,7 @@ __Email__: daniela (at) eng.auburn.edu
 
 <table><tr><td><strong>Graduate Teaching Assistant:</strong></td><td>Kanika Grover</td></tr>
 <tr><td><strong>Office:</strong></td><td>Shelby Center for Engineering Technology, Room 2114</td></tr>
-<tr><td><strong>E-Mail:</strong></td><td>kzg0008<at> auburn <dot> edu</td></tr></table>
+<tr><td><strong>E-Mail:</strong></td><td>kzg0008 AT auburn DOT edu</td></tr></table>
 
 ### Required Materials
 
