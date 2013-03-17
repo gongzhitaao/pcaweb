@@ -1,12 +1,6 @@
-<<<<<<< HEAD
----
----
-{% include setup %}
-=======
 
 
 
->>>>>>> be9e069095b78068530c58fbd629eefdb09519ba
 
 (function ($) {
 
@@ -23,17 +17,9 @@
         // highlight main menu
         var path = window.location.pathname.replace(/@/g, 'a');
         var tmp = path.split('/');
-<<<<<<< HEAD
-        {% if BASE_PATH and BASE_PATH != '' %}
-        var offset = 1;
-        {% else %}
+        
         var offset = 0;
-        {% endif %}
-=======
         
-        var offset = 1;
-        
->>>>>>> be9e069095b78068530c58fbd629eefdb09519ba
         $('#nav-' + tmp[1+offset]).addClass('active');
 
         var f = $("<span></span>", {'class': o.controlClass}).html(o.collapsedHTML);
