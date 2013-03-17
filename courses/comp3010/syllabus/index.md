@@ -5,7 +5,6 @@ layout: courses
 # SPREADSHEET-BASED APPLICATIONS WITH VISUAL BASIC(COMP3010)
 
 ## Syllabus
----
 
 __Credit Hours__: 3 hours
 
