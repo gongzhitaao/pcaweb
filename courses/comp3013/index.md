@@ -123,7 +123,6 @@ Lecture and content materials will be provided in Canvas in the form of PowerPoi
 </table>
 
 	>The final course grade will be determined by the final class average using the scale below, with the following constraint: to earn a passing grade in this course, a student must earn a passing grade for the assignment average.
-
 <table border="1" align="center" summary="Grade percentage to letter grade chart">
 <thead> 
 <tr style="background-color: #dbdbdb;">
