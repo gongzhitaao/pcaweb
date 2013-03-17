@@ -5,12 +5,17 @@ layout: courses
 # Spreadsheet-Based Applications with Visual Basic(COMP 3013/4)
 
 Credit Hours: 3 hours 
+
 Prerequisites: COMP 1200 or higher
 
+
 Instructor: Dr. Daniela Marghitu
+
 Email: [daniela@eng.auburn.edu](daniela@eng.auburn.edu)
 
+
 Graduate Teaching Assistant: Kanika Grover
+
 Email: [kzg0008@auburn.edu](kzg0008@auburn.edu)
 
 ## Required Materials:
@@ -117,7 +122,7 @@ Lecture and content materials will be provided in Canvas in the form of PowerPoi
 </tbody>
 </table>
 
-The final course grade will be determined by the final class average using the scale below, with the following constraint: to earn a passing grade in this course, a student must earn a passing grade for the assignment average.
+	>The final course grade will be determined by the final class average using the scale below, with the following constraint: to earn a passing grade in this course, a student must earn a passing grade for the assignment average.
 
 <table border="1" align="center" summary="Grade percentage to letter grade chart">
 <thead> 
