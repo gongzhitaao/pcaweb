@@ -43,11 +43,11 @@ The topics in this course provide a thorough knowledge of the skills on the foll
 7.	Working with Ranges
 8.	Looping and Flow Control
 9.	Arrays
-10.	Working with User-Defined Functions
-11.	Event Programming
-12.	Creating Classes, Records and Collections
-13.	Introduction to API
-14.	Application Development with Excel and VBA
+10.  Working with User-Defined Functions
+11.	 Event Programming
+12.	 Creating Classes, Records and Collections
+13.	 Introduction to API
+14.	 Application Development with Excel and VBA
 
 ### Course Objectives:
 
