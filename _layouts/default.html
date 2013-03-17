@@ -1,0 +1,103 @@
+---
+---
+{% include setup %}
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>{{page.title}}</title>
+
+    <meta name="description"
+          content="Personal Computer Applications at Auburn University"/>
+    <meta name="keywords"
+          content="Auburn University,
+                   COMP1000,COMP2000,COMP5000,COMP6000,COMP1003,
+                   ROBOCAMP,COMPCAMP"/>
+    <meta name="author" content="Auburn University"/>
+    <meta http-equiv="Content-type" content="text/html;charset=utf-8"/>
+
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/site.css"/>
+  </head>
+
+  <body>
+
+    <!-- This `wrapper' is for css sticky footer.  Please see
+         http://www.cssstickyfooter.com/ for details. -->
+
+    <div id="wrapper">
+
+      <!-- navbar -->
+
+      <div class="navbar navbar-static-top">
+        <div class="navbar-inner">
+          <form class="navbar-search pull-right">
+            <input type="text" class="search-query" placeholder="Search">
+          </form>
+
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li id="nav-"><a href="{{ BASE_PATH }}/" accesskey="p">PORTAL</a></li>
+              <li id="nav-courses"><a href="{{ BASE_PATH }}/courses/" accesskey="c">COURSES</a></li>
+              <li id="nav-k12"><a href="{{ BASE_PATH }}/k12/" accesskey="k">K12 OUTSTREACH</a></li>
+              <li id="nav-help"><a href="{{ BASE_PATH }}/Help/" accesskey="h">HELP</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- header -->
+
+      <!-- IE doesn't know <header></header>!!!! -->
+      <header class="header">
+        <img src="{{ ASSET_PATH }}/img/shelby.png"/>
+        <h1 class="title">
+          {% if page.title %}
+          {{ page.title }}
+          {% else %}
+          Personal Computer Application
+          {% endif %}
+        </h1>
+        <h3 class="subtitle">
+          {% if page.subtitle %}
+          {{ page.subtitle }}
+          {% else %}
+          PERSONAL COMPUTER APPLICATION
+          {% endif %}
+        </h3>
+      </header>
+
+      <div id="content-wrapper" class="container-fluid">
+        <div class="row-fluid">
+
+          {{content}}
+
+        </div> <!-- row-fluid -->
+      </div> <!-- content-wrapper -->
+    </div> <!-- wrapper -->
+
+    <!-- footer -->
+
+    <!-- IE knows no <footer></footer> -->
+    <div id="footer">
+      <div class="container-fluid">
+        <p><strong>Copyright &copy; All Right Reserved</strong></p>
+        <ul class="footer-links">
+          <li><a href="www.auburn.edu">Auburn University</a></li>
+          <li class="muted">|</li>
+          <li><a href="www.eng.auburn.edu/comp">CSSE</a></li>
+          <li class="muted">|</li>
+          <li><a href="https://fp.auburn.edu/comp2000/Daniela/index.html">
+              Dr. Daniela Marghitu</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="{{ ASSET_PATH }}/js/jquery-1.9.1.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/bootstrap.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/site.js"></script>
+  </body>
+<html>
