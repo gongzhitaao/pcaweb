@@ -178,6 +178,8 @@ h6{font-size:.75em}
 .ac-active a{color:red}
 .accordion-inner li{list-style-type:none}
 
+.table td{vertical-align:middle}
+
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;

@@ -183,105 +183,96 @@ Office applications.
 
 ## Course Requirements
 
-**1. Mandatory Training**
+1. **Mandatory Training**<br/> The training is available at Prentice Hall
+MyITLab website.  You are strongly advised to work on these training
+sessions in order to receive your grade. The website address is
+<http://www.pearsoncustom.com/al/au_mitl/>.  Student access code is
+necessary to register for MyITLab online which will be provided in the
+textbook package.
 
-The training is available at Prentice Hall MyITLab website.  You are
-strongly advised to work on these training sessions in order to
-receive your grade. The website address is
-[http://www.pearsoncustom.com/al/au_mitl/](helo).  Student access code
-is necessary to register for MyITLab online which will be provided in
-the textbook package.
+2. **Assignments**<br/> There are three types of homework assignments,
+MyITLab, Hands-on, and Practice Exercises. Hands-on, and Practice
+Exercises are available in the text book and submitted using
+Canvas. Each assignment is worth 5 points. It is required that
+students read the assignment and take the required MyITLab skills
+based assignments before class. Unexcused Canvas late work can be
+turned in by one week. Thereafter, the assignment will not be accepted
+and CAN NOT be turned in for a late penalty deduction.
 
-**2. Assignments**
+    - The first few chapters covered on MyITLab will test students
+      using exams in multiple choice format.  Thereafter, all MyITLab
+      exams will be in skill-based format.  The skill-based training
+      will include a pre-test, training, and post-test.  Students will
+      begin by taking the pre-test.  If a student scores 60% or above
+      on the pre-test, the student will be allowed to advance to the
+      post-test without taking the training module.  If a student
+      scores below 60% that student will be required to take the
+      training module, and will be required to earn 100% on the
+      training module before advancing to the post-test.  Therefore,
+      students who receive below 60% on the pre-test will need to
+      re-take the training module until they have earned 100%.
+      Afterwards, the student will be allowed to take the post-test.
+      The post-test grade is the final portion of the skill-based
+      training, and the grade earned on the post-test will be the
+      grade that is considered in the student's final MyITLab average.
 
-There are three types of homework assignments, MyITLab, Hands-on, and
-Practice Exercises. Hands-on, and Practice Exercises are available in
-the text book and submitted using Canvas. Each assignment is worth 5
-points. It is required that students read the assignment and take the
-required MyITLab skills based assignments before class. Unexcused
-Canvas late work can be turned in by one week. Thereafter, the
-assignment will not be accepted and CAN NOT be turned in for a late
-penalty deduction.
+    - MyITLab assignments may be submitted after the due date with a
+      10% late penalty applied.  Students who wish to submit MyITLab
+      assignments after the due date may do so until the last day of
+      class with late penalty.  After the last day of class, MyITLab
+      assignments will no longer be accepted.
 
-- The first few chapters covered on MyITLab will test students using
-exams in multiple choice format.  Thereafter, all MyITLab exams will
-be in skill-based format.  The skill-based training will include a
-pre-test, training, and post-test.  Students will begin by taking the
-pre-test.  If a student scores 60% or above on the pre-test, the
-student will be allowed to advance to the post-test without taking the
-training module.  If a student scores below 60% that student will be
-required to take the training module, and will be required to earn
-100% on the training module before advancing to the post-test.
-Therefore, students who receive below 60% on the pre-test will need to
-re-take the training module until they have earned 100%.  Afterwards,
-the student will be allowed to take the post-test.  The post-test
-grade is the final portion of the skill-based training, and the grade
-earned on the post-test will be the grade that is considered in the
-student's final MyITLab average.
+    - MyITLab is compatible only with Windows PC machines and Internet
+      Explorer.  MyITLab is compatible with MAC computers following
+      the proper instructions which can be found on the myITlab tab,
+      but NOT compatible with FireFox, Safari, Chrome, or Opera.
 
-- MyITLab assignments may be submitted after the due date with a 10%
-late penalty applied.  Students who wish to submit MyITLab assignments
-after the due date may do so until the last day of class with late
-penalty.  After the last day of class, MyITLab assignments will no
-longer be accepted.
+    - All COMP 1000 lab computers have been configured to run MyITLab,
+      however if a student wishes to install MyITLab on his or her
+      personal laptop, he or she must install the needed software in
+      class on the first day of class.  If not, the student will be
+      required to use the COMP 1000 lab to complete MyITLab
+      assignments.  If a student wishes to use his or her personal
+      laptop computer, it is the student's responsibility to ensure
+      that the machine is in working condition and will allow
+      assignments to be submitted by the due date.  A students failure
+      to get their personal computer working properly with myITlab
+      will not be considered a valid reason for submitting work late.
 
-- MyITLab is compatible only with Windows PC machines and Internet
-Explorer.  MyITLab is compatible with MAC computers following the
-proper instructions which can be found on the myITlab tab, but NOT
-compatible with FireFox, Safari, Chrome, or Opera.
+3. **Case Study 1 & 2**<br/> There are two case studies available and
+submitted in course website on Canvas.  An Integrated Case Study with
+Microsoft Office 2010 and the other is a SharePoint Case Study.  Each
+case study is worth 50 points.  More information about the studies is
+available in the course website on Canvas.
 
-- All COMP 1000 lab computers have been configured to run MyITLab,
-however if a student wishes to install MyITLab on his or her personal
-laptop, he or she must install the needed software in class on the
-first day of class.  If not, the student will be required to use the
-COMP 1000 lab to complete MyITLab assignments.  If a student wishes to
-use his or her personal laptop computer, it is the student's
-responsibility to ensure that the machine is in working condition and
-will allow assignments to be submitted by the due date.  A students
-failure to get their personal computer working properly with myITlab
-will not be considered a valid reason for submitting work late.
-
-**3. Case Study 1 & 2**
-
-There are two case studies available and submitted in course website
-on Canvas.  An Integrated Case Study with Microsoft Office 2010 and
-the other is a SharePoint Case Study.  Each case study is worth 50
-points.  More information about the studies is available in the course
-website on Canvas.
-
-**4. Examination 1**
-
-There will be a proctored Examination 1 available on myITlab.  The
-examination will cover the material from topics 1 - 4.  This is
-designed to give an opportunity to review all that the students have
-learned until this point in time, and is skill-based.  Completing your
-myITlab assignments will greatly help you in the exam.
-
-**5. Examination 2**
-
-There will be a proctored Examination 2 available on myITlab.  The
-examination will cover the material from topics 5 - 6.  This is
-designed to give an opportunity to review all that the students have
-learned until this point in time, and is skill-based.  Completing your
-myITlab assignments will greatly help you in the exam.
-
-**6. Examination 3**
-
-There will be a proctored Examination 3 available on myITlab.  The
-examination will cover the material from topics 7 - 9.  This is
-designed to give an opportunity to review all that the students have
-learned until this point in time, and is skill-based.  Completing your
-myITlab assignments will greatly help you in the exam.
-
-**7. Final Examination**
-
-There will be a proctored final examination at the end of the semester
-that will be available on myITlab .  This final examination will cover
-the material from topics 1 - 9.  The examination is designed to give
-an opportunity to review all that the students have learned from the
-beginning to this point in time.  It is comprehensive and will last
-for 2 ½ hours.  Completing your myITlab assignments will greatly help
+4. **Examination 1**<br/> There will be a proctored Examination 1
+available on myITlab.  The examination will cover the material from
+topics 1 - 4.  This is designed to give an opportunity to review all
+that the students have learned until this point in time, and is
+skill-based.  Completing your myITlab assignments will greatly help
 you in the exam.
+
+5. **Examination 2**<br/> There will be a proctored Examination 2
+available on myITlab.  The examination will cover the material from
+topics 5 - 6.  This is designed to give an opportunity to review all
+that the students have learned until this point in time, and is
+skill-based.  Completing your myITlab assignments will greatly help
+you in the exam.
+
+6. **Examination 3**<br/> There will be a proctored Examination 3
+available on myITlab.  The examination will cover the material from
+topics 7 - 9.  This is designed to give an opportunity to review all
+that the students have learned until this point in time, and is
+skill-based.  Completing your myITlab assignments will greatly help
+you in the exam.
+
+7. **Final Examination**<br/> There will be a proctored final
+examination at the end of the semester that will be available on
+myITlab .  This final examination will cover the material from topics
+1 - 9.  The examination is designed to give an opportunity to review
+all that the students have learned from the beginning to this point in
+time.  It is comprehensive and will last for 2 ½ hours.  Completing
+your myITlab assignments will greatly help you in the exam.
 
 ## Performance Evaluation
 
@@ -299,60 +290,60 @@ online at the end of each course topic.  You should expect to do well
 on these modules if you carefully study and understand the associated
 course topic.  The final course average will be computed as follows.
 
-<table border="1" align="center" summary="Class Point Distribution">
-<thead> 
-<tr>
-<td style="font-size: 16px;" colspan="3"><strong>Class Point Distribution</strong></td>
-</tr>
-<tr>
-<td><strong>Topic</strong></td>
-<td><strong>Percentage</strong></td>
-<td><strong>Points</strong></td>
-</tr>
-</thead> 
-<tbody>
-<tr>
-<td>Text Book Assignments and Case Studies</td>
-<td>30%</td>
-<td>300</td>
-</tr>
-<tr>
-<td>MyITLab Assignments</td>
-<td>10%</td>
-<td>100</td>
-</tr>
-<tr>
-<td>Exam 1</td>
-<td>10%</td>
-<td>100</td>
-</tr>
-<tr>
-<td>Exam 2</td>
-<td>10%</td>
-<td>100</td>
-</tr>
-<tr>
-<td>Exam 3</td>
-<td>10%</td>
-<td>100</td>
-</tr>
-<tr>
-<td>Final Exam</td>
-<td>30%</td>
-<td>300</td>
-</tr>
-<tr>
-<td>Total Points</td>
-<td>100%</td>
-<td>1000</td>
-</tr>
-</tbody>
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <td>Class Point Distribution</td>
+    </tr>
+    <tr>
+      <td><strong>Topic</strong></td>
+      <td><strong>Percentage</strong></td>
+      <td><strong>Points</strong></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Text Book Assignments and Case Studies</td>
+      <td>30%</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <td>MyITLab Assignments</td>
+      <td>10%</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Exam 1</td>
+      <td>10%</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Exam 2</td>
+      <td>10%</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Exam 3</td>
+      <td>10%</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Final Exam</td>
+      <td>30%</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <td>Total Points</td>
+      <td>100%</td>
+      <td>1000</td>
+    </tr>
+  </tbody>
 </table>
 
 The final course grade will be determined by the final class average using the scale below, with the following constraint: to earn a passing grade in this course, a student must earn a passing grade for the assignment average (assignment includes all Lab assignments and the two Case Studies but NOT the MyITLab assignments). An assignment average below 60% will result in an F in the course.
 
 <table border="1" align="center" summary="Grade Scale">
-<thead> 
+<thead>
 <tr>
 <td style="font-size: 16px; font-weight: bold;" colspan="3">Grade Scale</td>
 </tr>
@@ -361,7 +352,7 @@ The final course grade will be determined by the final class average using the s
 <td><strong>Minimal Score</strong></td>
 <td><strong>Grade</strong></td>
 </tr>
-</thead> 
+</thead>
 <tbody>
 <tr>
 <td>90% or above</td>
@@ -423,9 +414,7 @@ Make-ups will only be given with a valid university excuse. This means a Doctors
 In order to provide assistance with make-up assignments and in general for helping students in accomplishing as much as possible, we offer Friday Help sessions, on Fridays from 10:00 am to 3:00 pm. One of the COMP1000 instructors will be in COMP1000 lab to help the COMP1000 students. Please make use of this opportunity as it will be a great help to your understanding of the topics covered as well as provide more time for you to ask questions if you need it.
 
 ### Students with Disabilities
-Auburn University is committed to providing accommodations and services to students with documented disabilities. Any student with a qualified disability which requires accommodations should contact The Program for Students with Disabilities, 1244 Haley Center, Auburn University, AL 36849, 334-844-2096 PH, 334-844-2099 FAX. More information is available on their website at <http://www.auburn.edu/disability/>. The office will fax or mail the required forms to students to apply for services. Students who have questions to participate in this course should contact the above office in advance to ensure proper accommodations. 
+Auburn University is committed to providing accommodations and services to students with documented disabilities. Any student with a qualified disability which requires accommodations should contact The Program for Students with Disabilities, 1244 Haley Center, Auburn University, AL 36849, 334-844-2096 PH, 334-844-2099 FAX. More information is available on their website at <http://www.auburn.edu/disability/>. The office will fax or mail the required forms to students to apply for services. Students who have questions to participate in this course should contact the above office in advance to ensure proper accommodations.
 
 ### Plagiarism and Academic Dishonesty
 Plagiarism is the act of presenting directly or indirectly someone elseâ€™s work as your own. Plagiarism is a major type of academic dishonesty and will not be tolerated. Similarly cheating on tests in any way, falsifying bibliographies, fraudulent quotes, and similar practices are intolerable forms of academic dishonesty. The Universityâ€™s policy for academic misconduct in the Student Code of Conduct will be followed for this course (Tiger Club, pp. 83 and 92). If any questions regarding its contents, please contact the instructor.
-
-
