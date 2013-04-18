@@ -198,3 +198,169 @@ layout: courses
     </tr>
   </tbody>
 </table>
+
+
+## Friday Help Schedule
+
+<table class="table table-striped table-bordered table-condensed">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>10:00 AM</th>
+      <th>11:00 AM</th>
+      <th>12:00 PM</th>
+      <th>01:00 PM</th>
+      <th>02:00 PM</th>
+      <th>03:00 PM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1/11</td>
+      <td>Uma Kannan</td>
+      <td>Uma Kannan</td>
+      <td>Uma Kannan</td>
+      <td>Uma Kannan</td>
+      <td>Yun Tian</td>
+      <td>CLOSED</td>
+    </tr>
+    <tr>
+      <td>1/18</td>
+      <td>Uma Kannan</td>
+      <td>Uma Kannan</td>
+      <td>Uma Kannan</td>
+      <td>Uma Kannan</td>
+      <td>Yun Tian</td>
+      <td>CLOSED</td>
+    </tr>
+    <tr>
+      <td>1/25</td>
+      <td>Uma Kannan</td>
+      <td>Uma Kannan</td>
+      <td>Uma Kannan</td>
+      <td>Uma Kannan</td>
+      <td>Kanika Grover<br></td>
+      <td>CLOSED</td>
+    </tr>
+    <tr>
+      <td><strong>2/1</strong></td>
+      <td>Uma Kannan</td>
+      <td>Uma Kannan</td>
+      <td>Uma Kannan</td>
+      <td>Uma Kannan</td>
+      <td>Poojita Puligundla</td>
+      <td>CLOSED</td>
+    </tr>
+    <tr>
+      <td>2/8</td>
+      <td>Poojita Puligundla</td>
+      <td>Poojita Puligundla</td>
+      <td>Poojita Puligundla</td>
+      <td>Poojita Puligundla</td>
+      <td>Poojita Puligundla</td>
+      <td>CLOSED</td>
+    </tr>
+    <tr>
+      <td>2/15</td>
+      <td>Poojita Puligundla</td>
+      <td>Poojita Puligundla</td>
+      <td>Poojita Puligundla</td>
+      <td>Poojita Puligundla</td>
+      <td>Poojita Puligundla</td>
+      <td>CLOSED</td>
+    </tr>
+    <tr>
+      <td>2/22</td>
+      <td>Cristian Cira</td>
+      <td>Cristian Cira</td>
+      <td>Cristian Cira</td>
+      <td>Cristian Cira</td>
+      <td>Cristian Cira</td>
+      <td>CLOSED</td>
+    </tr>
+    <tr>
+      <td>3/01</td>
+      <td>Kanika Grover<br></td>
+      <td>Kanika Grover</td>
+      <td>Kanika Grover</td>
+      <td>Kanika Grover</td>
+      <td>Kanika Grover</td>
+      <td>CLOSED</td>
+    </tr>
+    <tr>
+      <td>3/08</td>
+      <td>Kanika Grover</td>
+      <td>Kanika Grover</td>
+      <td>Kanika Grover</td>
+      <td>Kanika Grover</td>
+      <td>Kanika Grover</td>
+      <td>CLOSED</td>
+    </tr>
+    <tr>
+      <td>3/22 (Exam 1 &amp; 2)</td>
+      <td colspan="5">Kanika Grover</td>
+      <td>CLOSED</td>
+    </tr>
+    <tr>
+      <td>3/29</td>
+      <td>Cristian Cira</td>
+      <td>Yun Tian<br></td>
+      <td>Yun Tian</td>
+      <td>Yun Tian</td>
+      <td>Yun Tian</td>
+      <td>CLOSED</td>
+    </tr>
+    <tr>
+      <td>4/05</td>
+      <td>Yun Tian</td>
+      <td>Yun Tian</td>
+      <td>Yun Tian</td>
+      <td>Yun Tian</td>
+      <td>Yun Tian</td>
+      <td>CLOSED</td>
+    </tr>
+    <tr>
+      <td>4/12</td>
+      <td>Yun Tian</td>
+      <td>Yun Tian</td>
+      <td>Yun Tian</td>
+      <td>Yun Tian</td>
+      <td>Yun Tian</td>
+      <td>CLOSED</td>
+    </tr>
+    <tr>
+      <td>4/19 All Exams</td>
+      <td>COORDINATOR</td>
+      <td>COORDINATOR</td>
+      <td>COORDINATOR</td>
+      <td>COORDINATOR</td>
+      <td>COORDINATOR</td>
+      <td>CLOSED</td>
+    </tr>
+    <tr>
+      <td>Cristian Cira</td>
+      <td>Cristian Cira</td>
+      <td>Cristian Cira</td>
+      <td>Cristian Cira</td>
+      <td>Cristian Cira</td>
+    </tr>
+    <tr>
+      <td>        &nbsp;4/26
+      </td>
+      <td>Poojita Puligundla<br>Cristian Cira<br></td>
+      <td>Poojita Puligundla <br>Cristian Cira<br></td>
+      <td>Poojita Puligundla<br>Cristian Cira</td>
+      <td>
+        Poojita Puligundla<br>Cristian Cira
+      </td>
+      <td>
+        Poojita Puligundla<br>Cristian Cira
+      </td>
+      <td>
+        <strong>&nbsp;</strong>CLOSED
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+\* Designated exam makeup day.  Coordinators will be present to administer makeup exams.
