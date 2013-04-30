@@ -50,7 +50,6 @@
                     "children": [
                         {"name": "Homepage"},
                         {"name": "People"},
-                        {"name": "Galary"},
                         {"name": "Archive"}
                     ]
                 },
@@ -59,7 +58,6 @@
                     "children": [
                         {"name": "Homepage"},
                         {"name": "People"},
-                        {"name": "Gallary"},
                         {"name": "Tutorial"},
                         {"name": "Clothing"},
                         {"name": "Archive"}
