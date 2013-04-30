@@ -1,0 +1,74 @@
+{
+    "name": "pca",
+    "children": [
+        {
+            "name": "Portal"
+        },
+        {
+            "name": "Courses",
+            "children": [
+                {
+                    "name": "COMP 1000/1003",
+                    "children": [
+                        {"name": "Syllabus", "size": 3938},
+                        {"name": "Schedule", "size": 3812},
+                        {"name": "Labs", "size": 6714},
+                        {"name": "Exams", "size": 743}
+                    ]
+                },
+                {
+                    "name": "COMP 2000",
+                    "children": [
+                        {"name": "Syllabus"}
+                    ]
+                },
+                {
+                    "name": "COMP 3010/3013",
+                    "children": [
+                        {"name": "Syllabus"}
+                    ]
+                },
+                {
+                    "name": "COMP 5000",
+                    "children": [
+                        {"name": "Syllabus"}
+                    ]
+                },
+                {
+                    "name": "COMP 1@@0",
+                    "children": [
+                        {"name": "Syllabus"}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "K12 Outreach",
+            "children": [
+                {
+                    "name": "COMPCAMP",
+                    "children": [
+                        {"name": "Homepage"},
+                        {"name": "People"},
+                        {"name": "Galary"},
+                        {"name": "Archive"}
+                    ]
+                },
+                {
+                    "name": "ROBOCAMP",
+                    "children": [
+                        {"name": "Homepage"},
+                        {"name": "People"},
+                        {"name": "Gallary"},
+                        {"name": "Tutorial"},
+                        {"name": "Clothing"},
+                        {"name": "Archive"}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "HELP"
+        }
+    ]
+}

@@ -1,0 +1,163 @@
+---
+---
+{% include setup %}
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>SIGSPATIAL 2013</title>
+
+    <meta name="description" content="Final term report for SIGSPATIAL 2013 project">
+    <meta name="author" content="Zhitao Gong">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="http://static.gongzhitaao.org/reveal.js/css/reveal.min.css">
+    <link rel="stylesheet" href="http://static.gongzhitaao.org/reveal.js/css/theme/default.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="http://static.gongzhitaao.org/reveal.js/lib/css/zenburn.css">
+
+    <link ref="stylesheet" href="{{ ASSET_PATH }}/css/site.css" />
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write('<link rel="stylesheet" href="http://static.gongzhitaao.org/reveal.js/css/print/' + (window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper') + '.css" type="text/css" media="print">');
+    </script>
+
+    <!--[if lt IE 9]>
+        <script src="http://static.gongzhitaao.org/reveal.js/lib/js/html5shiv.js"></script>
+        <![endif]-->
+    <style type="text/css">
+
+
+      .node circle {
+      cursor: pointer;
+      fill: #fff;
+      stroke: steelblue;
+      stroke-width: 1.5px;
+      }
+
+      .node text {
+      font-size: .5em;
+      fill: #ffff99;
+      }
+
+      path.link {
+      fill: none;
+      stroke: #ccc;
+      stroke-width: 1.5px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h1>PCA Project</h1>
+          <p><i>April 30, 2013</i></p>
+          <p><i>Zhitao Gong, Xing Wu</i></p>
+        </section>
+        <section>
+          <h2>Introduction</h2>
+          <ol>
+            <li>Was implemented in <span style="color:#cc0033">ASP.NET</span><br/>
+              <span style="font-size:.8em">flexible but server support needed</span>
+            </li>
+            <li>Switch to pure <span style="color:#00cc66">HTML5</span>
+              <ul style="font-size:.8em">
+                <li>sufficient and efficient</li>
+                <li>simple to implement and maintain</li>
+                <li>portable</li>
+              </ul>
+            </li>
+          </ol>
+        </section>
+        <section>
+          <h2>TOOLS</h2>
+          <ul>
+            <li><a href="http://jekyllrb.com/" target="_blank">Jekyll</a><span style="font-size:.8em">
+                is a blog-aware, static site generator in
+                Ruby</span></li>
+            <li><a href="http://git-scm.com/" target="_blank">Git</a>
+              and <a href="http://github.com">GitHub</a>
+              <ul style="font-size:.8em">
+                <li>Git is a free and open source distributed<br/> version
+                  control system</li>
+                <li>GitHub is a web-based hosting service for<br/> software
+                  development projects that use the<br/> Git revision control
+                  system.</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>Libraries</h2>
+          <ul>
+            <li><a href="jquery.com" target="_blank">jQuery</a><span style="font-size:.8em">
+                is a JavaScript wrapper library</span></li>
+            <li><a href="http://twitter.github.io/bootstrap/" target="_blank">Twitter
+                Boostrap</a><span style="font-size:.8em"> is a front-end
+                framework<br/> for web development</span></li>
+          </ul>
+        </section>
+        <section>
+          <h2 id="design">Site Design</h2>
+        </section>
+      </div>
+    </div>
+
+    <script src="http://static.gongzhitaao.org/reveal.js/lib/js/head.min.js"></script>
+    <script src="http://static.gongzhitaao.org/reveal.js/js/reveal.min.js"></script>
+
+    <script src="http://static.gongzhitaao.org/jquery/jquery-1.9.1.min.js"></script>
+    <script src="http://static.gongzhitaao.org/d3/d3.min.js"></script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      });
+    </script>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="{{ ASSET_PATH }}/js/site.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+
+      theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+      transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+      // Optional libraries used to extend on reveal.js
+      dependencies: [
+      { src: 'http://static.gongzhitaao.org/reveal.js/lib/js/classList.js', condition: function () { return !document.body.classList; } },
+      { src: 'http://static.gongzhitaao.org/reveal.js/plugin/markdown/showdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+      { src: 'http://static.gongzhitaao.org/reveal.js/plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+      { src: 'http://static.gongzhitaao.org/reveal.js/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+      { src: 'http://static.gongzhitaao.org/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function () { return !!document.body.classList; } },
+      { src: 'http://static.gongzhitaao.org/reveal.js/plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } }
+      // { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+      // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+      });
+
+    </script>
+
+  </body>
+</html>

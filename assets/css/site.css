@@ -153,6 +153,30 @@ h6{font-size:.75em}
 .navbar .nav>li>a:hover{color:#CCC!important}
 .navbar .nav>li.active>a:hover{color:#888!important}
 
+
+/* --------------------------------------------------------------------
+ * d3.layout tweaks
+ * --------------------------------------------------------------------
+ */
+
+.node circle {
+    cursor: pointer;
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+.node text {
+    font-size: 11px;
+}
+
+path.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+}
+
+
 /* --------------------------------------------------------------------
  * Custom tweaks
  * --------------------------------------------------------------------
